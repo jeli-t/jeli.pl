@@ -3,6 +3,7 @@
 import '@mantine/core/styles.css';
 import { MantineProvider, ColorSchemeScript } from '@mantine/core';
 import {notFound} from 'next/navigation';
+import { HeaderMenu } from '../../components/HeaderMenu/HeaderMenu';
 
 
 export const metadata = {
@@ -22,7 +23,10 @@ export default function RootLayout({children, params: {locale}}) {
         <ColorSchemeScript />
       </head>
       <body>
-        <MantineProvider>{children}</MantineProvider>
+        <MantineProvider>
+          <HeaderMenu></HeaderMenu>
+          {children}
+        </MantineProvider>
       </body>
     </html>
   );

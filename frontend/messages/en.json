@@ -1,4 +1,10 @@
 {
+    "HeaderMenu": {
+        "home": "Home Page",
+        "contact": "Contact",
+        "about": "About",
+        "portfolio": "Portfolio"
+    },
     "HomePage": {
         "title": "Home Page",
         "contact": "contact",
