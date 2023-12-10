@@ -1,6 +1,7 @@
 import styles from './page.module.css'
 import {Link} from '../../navigation';
 import {useTranslations} from 'next-intl';
+import { ColorSchemeToggle } from '../../components/ColorSchemeToggle/ColorSchemeToggle';
 
 
 export default function Home() {
@@ -15,6 +16,8 @@ export default function Home() {
       <br></br>
       <h2><Link href="/" locale='pl'>Polish</Link></h2>
       <h2><Link href="/" locale='en'>English</Link></h2>
+      <br></br>
+      <ColorSchemeToggle />
     </div>
   )
 }
