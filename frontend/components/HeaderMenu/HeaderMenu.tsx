@@ -3,7 +3,7 @@ import classes from './HeaderMenu.module.css';
 import {useTranslations} from 'next-intl';
 import { BurgerButton } from './BurgerButton';
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
-import { LanguagePicker } from '../LanguagePicker/LanguagePicker';
+import { LocaleSwitcher } from '../LanguagePicker/LocaleSwitcher';
 import {Link} from '../../navigation';
 import Image from 'next/image'
 import logoDark from './logoDark.png';
@@ -24,7 +24,7 @@ export function HeaderMenu() {
             <p><Link href='/portfolio' key={t('portfolio')} className={classes.link}>{t('portfolio')}</Link></p>
             <p><Link href='/about' key={t('about')} className={classes.link}>{t('about')}</Link></p>
             <p><Link href='/contact' key={t('contact')} className={classes.link}>{t('contact')}</Link></p>
-            <LanguagePicker></LanguagePicker>
+            <LocaleSwitcher></LocaleSwitcher>
             <ColorSchemeToggle></ColorSchemeToggle>
           </Group>
           <BurgerButton></BurgerButton>
