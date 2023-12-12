@@ -6,9 +6,10 @@
         "portfolio": "Portfolio"
     },
     "HomePage": {
-        "title": "Home Page",
-        "contact": "contact",
-        "about": "about",
-        "portfolio": "portfolio"
+        "title": "Home Page"
+    },
+    "ConstructionSite": {
+        "message": "This site is under construction",
+        "button": "Home Page"
     }
 }

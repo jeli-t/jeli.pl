@@ -6,9 +6,10 @@
         "portfolio": "Portfolio"
     },
     "HomePage": {
-        "title": "Strona główna",
-        "contact": "kontakt",
-        "about": "o mnie",
-        "portfolio": "portfolio"
+        "title": "Strona główna"
+    },
+    "ConstructionSite": {
+        "message": "Strona w trakcie budowy",
+        "button": "Strona Główna"
     }
 }
