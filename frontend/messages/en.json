@@ -11,5 +11,9 @@
     "ConstructionSite": {
         "message": "This site is under construction",
         "button": "Home Page"
+    },
+    "PageNotFound": {
+        "message": "Page not found!",
+        "button": "Strona Główna"
     }
 }
