@@ -3,8 +3,9 @@
 import '@mantine/core/styles.css';
 import { MantineProvider, ColorSchemeScript, createTheme, MantineColorsTuple  } from '@mantine/core';
 import {notFound} from 'next/navigation';
-import { locales } from '../../navigation';
-import { HeaderMenu } from '../../components/HeaderMenu/HeaderMenu';
+import { locales } from '@/navigation';
+import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
+import { Footer } from '@/components/Footer/Footer';
 
 
 export const metadata = {
@@ -45,6 +46,7 @@ export default function RootLayout({children, params: {locale}}) {
         <MantineProvider theme={theme}>
           <HeaderMenu></HeaderMenu>
           {children}
+          <Footer></Footer>
         </MantineProvider>
       </body>
     </html>
