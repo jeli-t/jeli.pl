@@ -4,7 +4,7 @@ import {useTranslations} from 'next-intl';
 import { BurgerMenu } from './BurgerMenu';
 import { ColorSchemeToggle } from '../ColorSchemeToggle/ColorSchemeToggle';
 import { LocaleSwitcher } from '../LanguagePicker/LocaleSwitcher';
-import {Link} from '../../navigation';
+import {Link} from '@/navigation';
 import { Logo } from './Logo'
 
 
