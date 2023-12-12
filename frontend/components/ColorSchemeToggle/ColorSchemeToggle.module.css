@@ -1,0 +1,6 @@
+.switch {
+    @media (max-width: $mantine-breakpoint-sm) {
+        width: rem(120px);
+        margin-left: 8px;
+      }
+}
