@@ -1,7 +1,7 @@
 // Import styles of packages that you've installed.
 // All packages except `@mantine/hooks` require styles imports
 import '@mantine/core/styles.css';
-import { MantineProvider, ColorSchemeScript, createTheme, MantineColorsTuple  } from '@mantine/core';
+import { MantineProvider, ColorSchemeScript, createTheme, MantineColorsTuple } from '@mantine/core';
 import {notFound} from 'next/navigation';
 import { locales } from '@/navigation';
 import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
@@ -45,7 +45,9 @@ export default function RootLayout({children, params: {locale}}) {
       <body>
         <MantineProvider theme={theme}>
           <HeaderMenu></HeaderMenu>
-          {children}
+          <div style={{overflowX: 'hidden'}}>
+            {children}
+          </div>
           <Footer></Footer>
         </MantineProvider>
       </body>
