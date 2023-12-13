@@ -17,7 +17,7 @@ export function PageNotFound() {
         </Title>
         <Space h={'xl'}></Space>
         <Link href={'/'}>
-        <Button size='sm' className={classes.button}>{t('button')}</Button>
+        <Button size='sm'>{t('button')}</Button>
         </Link>
     </Container>
   );

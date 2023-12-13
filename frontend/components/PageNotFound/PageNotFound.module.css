@@ -6,11 +6,3 @@
     align-items: center;
     text-align: center;
 }
-
-.button {
-    background-color: light-dark(var(--mantine-color-myColor-5), var(--mantine-color-myColor-4));
-
-    @mixin hover {
-        background-color: light-dark(var(--mantine-color-myColor-7), var(--mantine-color-myColor-7));
-    }
-}

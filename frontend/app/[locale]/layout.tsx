@@ -14,7 +14,7 @@ export const metadata = {
 };
 
 // https://mantine.dev/colors-generator/?color=63687C
-const myColor: MantineColorsTuple = [
+const BlueGray: MantineColorsTuple = [
   "#f3f3fe",
   "#e4e6ed",
   "#c8cad3",
@@ -27,10 +27,24 @@ const myColor: MantineColorsTuple = [
   "#4a5167"
 ]
 
+// https://mantine.dev/colors-generator/?color=099CFF
+const SkyBlue: MantineColorsTuple = [
+  "#e1f9ff",
+  "#ccedff",
+  "#9ad7ff",
+  "#64c1ff",
+  "#3baefe",
+  "#20a2fe",
+  "#099cff",
+  "#0088e4",
+  "#0078cd",
+  "#0069b6"
+]
+
 const theme = createTheme({
   fontFamily: 'Verdana, sans-serif',
-  primaryColor: "gray",
-  colors: {myColor}
+  primaryColor: "SkyBlue",
+  colors: {BlueGray, SkyBlue}
 });
 
 export default function RootLayout({children, params: {locale}}) {
