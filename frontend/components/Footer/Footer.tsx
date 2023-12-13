@@ -1,4 +1,4 @@
-import { Group, Container, ActionIcon, rem } from '@mantine/core';
+import { Group, Container, ActionIcon, rem, Title } from '@mantine/core';
 import classes from './Footer.module.css';
 import {useTranslations} from 'next-intl';
 import { IconBrandInstagram, IconMail, IconBrandFacebook } from '@tabler/icons-react';
@@ -10,6 +10,7 @@ export function Footer() {
   const t = useTranslations('HeaderMenu');
 
   return (
+    <>
       <Container fluid className={classes.wrapper}>
         <div className={classes.inner}>
           <Logo></Logo>
@@ -32,5 +33,11 @@ export function Footer() {
           </Group>
         </div>
       </Container>
+      <Container fluid className={classes.wrapper}>
+        <Title order={6}>
+          © 2023 jeli.pl. All rights reserved.
+        </Title>
+      </Container>
+    </>
   );
 }
