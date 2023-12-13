@@ -15,5 +15,9 @@
     "PageNotFound": {
         "message": "Page not found!",
         "button": "Home Page"
+    },
+    "ContactSection": {
+        "img": "Text me",
+        "message": "Email me:"
     }
 }

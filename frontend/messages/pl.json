@@ -15,5 +15,9 @@
     "PageNotFound": {
         "message": "Nie znaleziono strony!",
         "button": "Strona Główna"
+    },
+    "ContactSection": {
+        "img": "Napisz do mnie",
+        "message": "Napisz do mnie:"
     }
 }
