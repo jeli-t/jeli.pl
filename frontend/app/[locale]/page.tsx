@@ -1,6 +1,6 @@
 import classes from './page.module.css'
 import {useTranslations} from 'next-intl';
-import { ConstructionSite } from '../../components/ConstructionSite/ConstructionSite';
+import { HeroSection } from '@/components/HeroSection/HeroSection';
 import { Container } from '@mantine/core';
 
 
@@ -9,7 +9,7 @@ export default function Home() {
 
   return (
     <Container fluid>
-      <ConstructionSite></ConstructionSite>
+      <HeroSection></HeroSection>
     </Container>
   )
 }
