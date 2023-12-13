@@ -7,7 +7,7 @@ import Image from 'next/image'
 import English from './images/english.png';
 import Polish from './images/polish.png';
 import classes from './LanguagePicker.module.css';
-import {Link} from '../../navigation';
+import { Link, usePathname } from '@/navigation';
 
 
 const data = [
@@ -19,9 +19,10 @@ const data = [
 export function LanguagePicker({ currentLocale }: { currentLocale: string }) {
   const [opened, setOpened] = useState(false);
   const [selected, setSelected] = useState(data.find(d => d.locale === currentLocale));
+  const pathname = usePathname();
 
   const items = data.map((item) => (
-    <Link href="/" locale={item.locale} className={classes.link}>
+    <Link href={pathname} locale={item.locale} className={classes.link}>
       <Menu.Item
         leftSection={<Image alt="Flag" src={item.image} width={18} height={18} />}
         onClick={() => setSelected(item)}
