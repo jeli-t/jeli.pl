@@ -9,19 +9,21 @@ export function AboutMeSection() {
   const t = useTranslations('AboutMe');
 
   return (
-    <Container fluid className={classes.wrapper}>
-      <div className={classes.left_section}>
-        <Image src={about_me} alt={t('img')} title={t('img')} loading='eager' height={600} />
-      </div>
-      <div className={classes.right_section}>
-        <Title order={1}>
-          {t('title')}
-        </Title>
-        <Space my="sm" />
-        <Text size="lg">
-          {t('content')}
-        </Text>
-      </div>
+    <Container fluid className={classes.component}>
+      <Container fluid className={classes.wrapper}>
+        <div className={classes.left_section}>
+          <Image src={about_me} alt={t('img')} title={t('img')} loading='eager' height={600} />
+        </div>
+        <div className={classes.right_section}>
+          <Title order={1}>
+            {t('title')}
+          </Title>
+          <Space my="sm" />
+          <Text size="lg">
+            {t('content')}
+          </Text>
+        </div>
+      </Container>
     </Container>
   );
 }
