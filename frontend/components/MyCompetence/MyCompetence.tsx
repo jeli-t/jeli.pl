@@ -53,6 +53,8 @@ export function MyCompetence() {
             <Button variant='light' className={classes.skill}>Linux</Button>
             <Button variant='light' className={classes.skill}>DevOps</Button>
             <Button variant='light' className={classes.skill}>GCP</Button>
+            <Button variant='outline' className={classes.skill}>{t('polish')}</Button>
+            <Button variant='outline' className={classes.skill}>{t('english')}</Button>
           </Group>
         </div>
       </Container>
