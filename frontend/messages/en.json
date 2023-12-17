@@ -24,5 +24,12 @@
         "img": "Working remotely",
         "title": "Who Am I?",
         "content": "Hi, my name is Tomasz Jelito and I am a full-stack web developer from Poland. I started my digital journey at the age of 12, learning the basics of programming and web design on my own. I'm currently in my 5th year of Computer Science technical school, developing my dream career of a freelancer. I never stop learning and follow technology trends to stay on top of what I do."
+    },
+    "MyCompetence": {
+        "title": "Experience",
+        "content1": "When I was 12 years old, my older brother showed me that the computer is not only for gaming. That's when my adventure with programming began. I spent hundreds of hours learning the basics of C++ and algorithms from youtube.",
+        "content2": "In 2019 I started studying Computer Science at a technical school, where I am currently in my 5th year. During this time, I gained a lot of hands-on experience (I have done two internships) and knowledge about how computers work and how to develop websites and web applications.",
+        "content3": "Check out my recent commercial and personal projects on the portfolio subpage or on my Github profile.",
+        "skills": "My Skills"
     }
 }

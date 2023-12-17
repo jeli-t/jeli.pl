@@ -24,5 +24,12 @@
         "img": "Praca zdalna",
         "title": "Kim jestem?",
         "content": "Cześć, nazywam się Tomasz Jelito i jestem full-stack web developerem z Polski. Swoją cyfrową podróż rozpocząłem w wieku 12 lat, samodzielnie ucząc się podstaw programowania i projektowania stron internetowych. Obecnie jestem na piątym roku technikum informatycznego, rozwijając swoją wymarzoną karierę freelancera. Nigdy nie przestaję się uczyć i ciągle podążam za trendami technologicznymi, żeby być jak najlepszym w tym co robię."
+    },
+    "MyCompetence": {
+        "title": "Doświadczenie",
+        "content1": "Kiedy miałem 12 lat, mój starszy brat pokazał mi, że komputer służy nie tylko do grania. Wtedy zaczęła się moja przygoda z programowaniem. Spędziłem setki godzin ucząc się podstaw C++ i algorytmiki z youtube.",
+        "content2": "W 2019 roku zacząłem studiować informatykę w szkole technicznej, gdzie obecnie jestem na piątym roku. W tym czasie zdobyłem dużo praktycznego doświadczenia (odbyłem dwa staże) i wiedzy na temat działania komputerów oraz tworzenia stron internetowych i aplikacji internetowych.",
+        "content3": "Sprawdź moje ostatnie projekty komercyjne i osobiste na podstronie portfolio lub na moim profilu Github.",
+        "skills": "Moje umiejętności"
     }
 }
