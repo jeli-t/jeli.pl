@@ -10,7 +10,7 @@ export function Footer() {
   const t = useTranslations('HeaderMenu');
 
   return (
-    <>
+    <Container fluid p={0} className={classes.component}>
       <Container fluid className={classes.wrapper}>
         <div className={classes.inner}>
           <Logo></Logo>
@@ -38,6 +38,6 @@ export function Footer() {
           © 2023 jeli.pl. All rights reserved.
         </Title>
       </Container>
-    </>
+    </Container>
   );
 }
