@@ -15,7 +15,7 @@ export function AboutMeSection() {
           <Image src={about_me} alt={t('img')} title={t('img')} loading='eager' height={600} />
         </div>
         <div className={classes.right_section}>
-          <Title order={1}>
+          <Title order={1} className={classes.title}>
             {t('title')}
           </Title>
           <Space my="sm" />

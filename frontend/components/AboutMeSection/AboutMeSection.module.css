@@ -73,3 +73,7 @@
         width: 100%;
     }
 }
+
+.title {
+    text-decoration: underline 4px solid var(--mantine-color-SkyBlue-6);
+}
