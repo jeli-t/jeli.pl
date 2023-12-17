@@ -32,7 +32,7 @@ export function MyCompetence() {
           </Title>
           <Space my="sm" />
           <Group>
-          <Button variant='light' className={classes.skill}>SEO</Button>
+            <Button variant='light' className={classes.skill}>SEO</Button>
             <Button variant='light' className={classes.skill}>Node</Button>
             <Button variant='light' className={classes.skill}>React</Button>
             <Button variant='light' className={classes.skill}>Mantine</Button>
