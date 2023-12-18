@@ -5,8 +5,8 @@
         "about": "About",
         "portfolio": "Portfolio"
     },
-    "HomePage": {
-        "title": "Home Page"
+    "HeroSection": {
+        "content": "I design, develop and deploy complete websites and web applications with a passion to what I do."
     },
     "ConstructionSite": {
         "message": "This site is under construction",

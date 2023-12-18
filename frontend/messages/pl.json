@@ -5,8 +5,8 @@
         "about": "O mnie",
         "portfolio": "Portfolio"
     },
-    "HomePage": {
-        "title": "Strona główna"
+    "HeroSection": {
+        "content": "Projektuję, tworzę i wdrażam kompletne strony i aplikacje internetowe z pasją do tego, co robię."
     },
     "ConstructionSite": {
         "message": "Strona w trakcie budowy",
