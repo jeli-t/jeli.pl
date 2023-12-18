@@ -33,15 +33,16 @@ export function MyCompetence() {
           <Space my="sm" />
           <Group>
             <Button variant='light' className={classes.skill}>SEO</Button>
-            <Button variant='light' className={classes.skill}>Node</Button>
+            <Button variant='light' className={classes.skill}>Next JS</Button>
             <Button variant='light' className={classes.skill}>React</Button>
             <Button variant='light' className={classes.skill}>Mantine</Button>
             <Button variant='light' className={classes.skill}>Responsive Design</Button>
-            <Button variant='light' className={classes.skill}>Django</Button>
             <Button variant='light' className={classes.skill}>Git</Button>
             <Button variant='light' className={classes.skill}>Github</Button>
             <Button variant='light' className={classes.skill}>JavaScript</Button>
             <Button variant='light' className={classes.skill}>TypeScript</Button>
+            <Button variant='light' className={classes.skill}>REST API</Button>
+            <Button variant='light' className={classes.skill}>Django</Button>
             <Button variant='light' className={classes.skill}>PostgreSQL</Button>
             <Button variant='light' className={classes.skill}>MySQL</Button>
             <Button variant='light' className={classes.skill}>HTML</Button>
