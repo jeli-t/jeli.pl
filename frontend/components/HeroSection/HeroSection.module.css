@@ -1,49 +1,32 @@
 .component {
-  height: 80vh;
   width: 70%;
+  height: 100vh;
   display: flex;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-
-  @media (max-width: $mantine-breakpoint-md) {
-    width: 100%;
-  }
+  padding-top: 100px;
 }
 
 .wrapper {
   width: 100%;
-  position: relative;
-  padding-top: rem(120px);
-  padding-bottom: rem(80px);
-  
-  @media (max-width: $mantine-breakpoint-sm) {
-    padding-top: rem(80px);
-    padding-bottom: rem(60px);
+  display: flex;
+  justify-content: space-around;
+  padding-top: calc(var(--mantine-spacing-xl) * 4);
+  padding-bottom: calc(var(--mantine-spacing-xl) * 4);
+}
+
+.content {
+  width: 50%;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    max-width: 100%;
+    margin-right: 0;
   }
 }
 
-.inner {
-  position: relative;
-  z-index: 1;
-}
-
-.dots {
-  position: absolute;
-  color: var(--mantine-color-SkyBlue-3);
-
-  @media (max-width: $mantine-breakpoint-sm) {
-    display: none;
-  }
-}
-
-.dotsLeft {
-  left: 0;
-  top: 0;
-}
-
+.name,
 .title {
-  text-align: center;
+  text-align: left;
   font-weight: 800;
   font-size: rem(40px);
   letter-spacing: -1px;
@@ -59,15 +42,36 @@
   }
 }
 
-.highlight {
+.name {
+  font-size: rem(56px);
   color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: rem(32px);
+  }
 }
 
 .description {
-  text-align: center;
+  text-align: left;
 
   @media (max-width: $mantine-breakpoint-xs) {
     text-align: left;
     font-size: var(--mantine-font-size-md);
+  }
+}
+
+.button {
+  margin-top: 30px;
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    flex: 1;
+  }
+}
+
+.image {
+  width: 50%;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    display: none;
   }
 }

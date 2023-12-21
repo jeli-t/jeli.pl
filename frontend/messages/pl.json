@@ -6,7 +6,9 @@
         "portfolio": "Portfolio"
     },
     "HeroSection": {
-        "content": "Projektuję, tworzę i wdrażam kompletne strony i aplikacje internetowe z pasją do tego, co robię."
+        "content": "Projektuję, tworzę i wdrażam strony internetowe i aplikacje.",
+        "img": "web developer",
+        "contact": "Napisz do mnie"
     },
     "ConstructionSite": {
         "message": "Strona w trakcie budowy",
