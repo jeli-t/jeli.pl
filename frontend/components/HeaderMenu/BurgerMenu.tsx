@@ -4,16 +4,20 @@ import { Burger, Drawer } from '@mantine/core';
 import { useDisclosure } from '@mantine/hooks';
 import classes from './HeaderMenu.module.css';
 import { usePathname } from 'next/navigation'
-import { useEffect } from 'react';
+import { useCallback, useEffect } from 'react';
 
 
 export function BurgerMenu({ children } : any) {
   const [opened, { open, close }] = useDisclosure(false);
   const pathname = usePathname();
 
+  const closeMenu = useCallback(() => {
+    return close();
+  }, [ close ]);
+
   useEffect(() => {
-    close();
-  }, [ pathname ]);
+    closeMenu();
+  }, [ pathname, closeMenu ]);
   
   return (
     <>
