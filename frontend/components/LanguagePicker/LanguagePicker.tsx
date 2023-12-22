@@ -22,7 +22,7 @@ export function LanguagePicker({ currentLocale }: { currentLocale: string }) {
   const pathname = usePathname();
 
   const items = data.map((item) => (
-    <Link href={pathname} locale={item.locale} className={classes.link}>
+    <Link key={item.locale} href={pathname} locale={item.locale as any} className={classes.link}>
       <Menu.Item
         leftSection={<Image alt="Flag" src={item.image} width={18} height={18} />}
         onClick={() => setSelected(item)}
@@ -44,8 +44,8 @@ export function LanguagePicker({ currentLocale }: { currentLocale: string }) {
       <Menu.Target>
         <UnstyledButton className={classes.control} data-expanded={opened || undefined}>
           <Group className={classes.current}>
-            <Image src={selected.image} alt="Flag" width={22} height={22} />
-            <span className={classes.label} data-expanded={opened || undefined}>{selected.label}</span>
+            <Image src={selected?.image as any} alt="Flag" width={22} height={22} />
+            <span className={classes.label} data-expanded={opened || undefined}>{selected?.label}</span>
           </Group>
           <IconChevronDown size="1rem" className={classes.icon} stroke={1.5} />
         </UnstyledButton>

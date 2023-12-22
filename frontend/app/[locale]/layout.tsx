@@ -47,12 +47,18 @@ const theme = createTheme({
   colors: {BlueGray, SkyBlue}
 });
 
-export default function RootLayout({children, params: {locale}}) {
 
-  if (!locales.includes(locale as any)) notFound();
+interface LayoutProps {
+  children: React.ReactNode;
+  params: {locale: any};
+}
+
+export default function RootLayout(props: LayoutProps) {
+
+  if (!locales.includes(props.params.locale as any)) notFound();
 
   return (
-    <html lang={locale}>
+    <html lang={props.params.locale}>
       <head>
         <ColorSchemeScript />
       </head>
@@ -60,7 +66,7 @@ export default function RootLayout({children, params: {locale}}) {
         <MantineProvider theme={theme}>
           <HeaderMenu></HeaderMenu>
           <div style={{overflowX: 'hidden'}}>
-            {children}
+            {props.children}
           </div>
           <Footer></Footer>
         </MantineProvider>
