@@ -1,18 +1,16 @@
 .control {
-  width: rem(40px);
-  margin: 15px;
+  height: 30px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: var(--mantine-spacing-xs) var(--mantine-spacing-md);
   border-radius: var(--mantine-radius-md);
-  border: rem(1px) solid light-dark(var(--mantine-color-gray-2), var(--mantine-color-dark-6));
   transition: background-color 150ms ease;
-  transition: width 300ms;
-  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
+  transition: width 400ms;
 
   &[data-expanded] {
-    width: rem(150px);
+    justify-content: space-around;
+    width: 160px;
     background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-5));
   }
 
@@ -21,7 +19,8 @@
   }
 
   @media (max-width: $mantine-breakpoint-sm) {
-    width: rem(130px);
+    justify-content: space-between;
+    width: 160px;
     margin-left: 8px;
     margin-top: 20px;
   }
