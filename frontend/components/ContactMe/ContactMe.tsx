@@ -6,10 +6,12 @@ import {
     Textarea,
     Button,
     Group,
-    ActionIcon,
     Container,
+    Stack,
+    Box,
+    rem,
   } from '@mantine/core';
-  import { ContactIconsList } from './ContactIcons';
+  import { IconSun, IconMapPin, IconAt } from '@tabler/icons-react';
   import classes from './ContactMe.module.css';
   import { useTranslations } from 'next-intl';
 
@@ -29,7 +31,51 @@ export function ContactMe() {
                       {t("content")}
                     </Text>
         
-                    <ContactIconsList />
+                    <Stack>
+                        <div className={classes.icons_wrapper}>
+                          <Box mr="md">
+                            <IconAt style={{ width: rem(24), height: rem(24) }} />
+                          </Box>
+                          <div>
+                            <Text size="xs" className={classes.icons_title}>
+                              Email
+                            </Text>
+                            <a href="mailto:jeli@jeli.pl">
+                              <Text className={classes.icons_description}>
+                                jeli@jeli.pl
+                              </Text>
+                            </a>
+                          </div>
+                        </div>
+
+                      <div className={classes.icons_wrapper}>
+                        <Box mr="md">
+                          <IconMapPin style={{ width: rem(24), height: rem(24) }} />
+                        </Box>
+                        <div>
+                          <Text size="xs" className={classes.icons_title}>
+                            {t("address_title")}
+                          </Text>
+                          <Text className={classes.icons_description}>
+                            {t("address")}
+                          </Text>
+                        </div>
+                      </div>
+
+                      <div className={classes.icons_wrapper}>
+                        <Box mr="md">
+                          <IconSun style={{ width: rem(24), height: rem(24) }} />
+                        </Box>
+                        <div>
+                          <Text size="xs" className={classes.icons_title}>
+                            {t("working_hours_title")}
+                          </Text>
+                          <Text className={classes.icons_description}>
+                            {t("working_hours")}
+                          </Text>
+                        </div>
+                      </div>
+                    </Stack>
         
                 </div>
                 <div className={classes.form}>

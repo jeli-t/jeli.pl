@@ -79,3 +79,23 @@
 .control {
   background-color: var(--mantine-color-blue-6);
 }
+
+.icons_wrapper {
+  display: flex;
+  align-items: center;
+  color: var(--mantine-color-white);
+  margin-top: 10px;
+}
+
+.icon {
+  margin-right: var(--mantine-spacing-md);
+  background-color: transparent;
+}
+
+.icons_title {
+  color: var(--mantine-color-blue-0);
+}
+
+.icons_description {
+  color: var(--mantine-color-white);
+}

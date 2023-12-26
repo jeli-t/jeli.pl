@@ -26,7 +26,11 @@
         "name_placeholder": "Twoje Imię",
         "message": "Twoja wiadomość",
         "message_placeholder": "Chcę cię zatrudnić...",
-        "button": "Wyślij wiadomość"
+        "button": "Wyślij wiadomość",
+        "address_title": "Adres",
+        "address": "Pracuję zdalnie",
+        "working_hours_title": "Godziny pracy",
+        "working_hours": "Jak wstanę - jak pójdę spać"
     },
     "AboutMe": {
         "img": "Praca zdalna",

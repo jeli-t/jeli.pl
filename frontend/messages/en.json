@@ -26,7 +26,11 @@
         "name_placeholder": "Your Name",
         "message": "Your message",
         "message_placeholder": "I want to hire you...",
-        "button": "Send message"
+        "button": "Send message",
+        "address_title": "Address",
+        "address": "Working remotely",
+        "working_hours_title": "Working hours",
+        "working_hours": "When I get up - when I go to sleep"
     },
     "AboutMe": {
         "img": "Working remotely",
