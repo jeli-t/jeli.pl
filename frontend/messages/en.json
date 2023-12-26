@@ -18,9 +18,15 @@
         "message": "Page not found!",
         "button": "Home Page"
     },
-    "ContactSection": {
-        "img": "Text me",
-        "message": "Email me:"
+    "ContactMe": {
+        "contact": "Contact me",
+        "content": "I'm happy to answer all your questions",
+        "email_placeholder": "your@email.com",
+        "name": "Name",
+        "name_placeholder": "Your Name",
+        "message": "Your message",
+        "message_placeholder": "I want to hire you...",
+        "button": "Send message"
     },
     "AboutMe": {
         "img": "Working remotely",

@@ -1,6 +1,8 @@
 import { Text, Box, Stack, rem } from '@mantine/core';
-import { IconSun, IconPhone, IconMapPin, IconAt } from '@tabler/icons-react';
+import { IconSun, IconMapPin, IconAt } from '@tabler/icons-react';
 import classes from './ContactIcons.module.css';
+import { useTranslations } from 'next-intl';
+
 
 interface ContactIconProps extends Omit<React.ComponentPropsWithoutRef<'div'>, 'title'> {
   icon: typeof IconSun;
@@ -9,6 +11,8 @@ interface ContactIconProps extends Omit<React.ComponentPropsWithoutRef<'div'>, '
 }
 
 function ContactIcon({ icon: Icon, title, description, ...others }: ContactIconProps) {
+  const t = useTranslations('ContactMe');
+
   return (
     <div className={classes.wrapper} {...others}>
       <Box mr="md">
@@ -26,10 +30,9 @@ function ContactIcon({ icon: Icon, title, description, ...others }: ContactIconP
 }
 
 const MOCKDATA = [
-  { title: 'Email', description: 'hello@mantine.dev', icon: IconAt },
-  { title: 'Phone', description: '+49 (800) 335 35 35', icon: IconPhone },
-  { title: 'Address', description: '844 Morris Park avenue', icon: IconMapPin },
-  { title: 'Working hours', description: '8 a.m. – 11 p.m.', icon: IconSun },
+  { title: 'Email', description: 'jeli@jeli.pl', icon: IconAt },
+  { title: 'Addres', description: 'Working remotely', icon: IconMapPin },
+  { title: 'Working hours', description: 'When I get up - when I go to sleep', icon: IconSun },
 ];
 
 export function ContactIconsList() {

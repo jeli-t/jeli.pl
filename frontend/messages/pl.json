@@ -18,9 +18,15 @@
         "message": "Nie znaleziono strony!",
         "button": "Strona Główna"
     },
-    "ContactSection": {
-        "img": "Napisz do mnie",
-        "message": "Napisz do mnie:"
+    "ContactMe": {
+        "contact": "Napisz do mnie",
+        "content": "Chętnie odpowiem na wszystkie pytania",
+        "email_placeholder": "twoj@email.com",
+        "name": "Imię",
+        "name_placeholder": "Twoje Imię",
+        "message": "Twoja wiadomość",
+        "message_placeholder": "Chcę cię zatrudnić...",
+        "button": "Wyślij wiadomość"
     },
     "AboutMe": {
         "img": "Praca zdalna",
