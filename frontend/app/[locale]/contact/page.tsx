@@ -1,12 +1,12 @@
 import styles from './page.module.css'
-import { ContactSection } from '@/components/ContactSection/ContactSection';
+import { ContactMe } from '@/components/ContactMe/ContactMe';
 import { Container } from '@mantine/core';
 
 
 export default function Contact() {
   return (
     <Container fluid>
-      <ContactSection></ContactSection>
+      <ContactMe></ContactMe>
     </Container>
   )
 }
