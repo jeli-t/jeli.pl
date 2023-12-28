@@ -10,14 +10,26 @@ import {
     Stack,
     Box,
     rem,
-  } from '@mantine/core';
-  import { IconSun, IconMapPin, IconAt } from '@tabler/icons-react';
-  import classes from './ContactMe.module.css';
-  import { useTranslations } from 'next-intl';
+} from '@mantine/core';
+import { IconSun, IconMapPin, IconAt } from '@tabler/icons-react';
+import classes from './ContactMe.module.css';
+import { useTranslations } from 'next-intl';
+import { ContactForm } from './ContactForm';
 
 
 export function ContactMe() {
     const t = useTranslations('ContactMe');
+
+    const form_translations = {
+      email_placeholder: t("email_placeholder"),
+      email_error: t("email_error"),
+      name: t("name"),
+      name_placeholder: t("name_placeholder"),
+      message: t("message"),
+      message_placeholder: t("message_placeholder"),
+      message_error: t("message_error"),
+      button: t("button"),
+    };
 
     return (
         <Container fluid className={classes.component}>
@@ -79,32 +91,7 @@ export function ContactMe() {
         
                 </div>
                 <div className={classes.form}>
-                    <TextInput
-                    label="Email"
-                    placeholder={t("email_placeholder")}
-                    required
-                    classNames={{ input: classes.input, label: classes.inputLabel }}
-                    />
-                    <TextInput
-                    label={t("name")}
-                    placeholder={t("name_placeholder")}
-                    mt="md"
-                    classNames={{ input: classes.input, label: classes.inputLabel }}
-                    />
-                    <Textarea
-                    required
-                    label={t("message")}
-                    placeholder={t("message_placeholder")}
-                    minRows={4}
-                    mt="md"
-                    classNames={{ input: classes.input, label: classes.inputLabel }}
-                    />
-        
-                    <Group justify="flex-end" mt="md">
-                    <Button className={classes.control}>
-                      {t("button")}
-                    </Button>
-                    </Group>
+                  <ContactForm translations={form_translations}></ContactForm>
                 </div>
                 </SimpleGrid>
             </div>

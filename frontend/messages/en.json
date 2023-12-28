@@ -30,7 +30,9 @@
         "address_title": "Address",
         "address": "Working remotely",
         "working_hours_title": "Working hours",
-        "working_hours": "When I get up - when I go to sleep"
+        "working_hours": "When I get up - when I go to sleep",
+        "email_error": "Invalid email",
+        "message_error": "Write something more :("
     },
     "AboutMe": {
         "img": "Working remotely",
