@@ -30,7 +30,9 @@
         "address_title": "Adres",
         "address": "Pracuję zdalnie",
         "working_hours_title": "Godziny pracy",
-        "working_hours": "Jak wstanę - jak pójdę spać"
+        "working_hours": "Jak wstanę - jak pójdę spać",
+        "email_error": "Nieprawidłowy adres e-mail",
+        "message_error": "Napisz coś więcej :("
     },
     "AboutMe": {
         "img": "Praca zdalna",
