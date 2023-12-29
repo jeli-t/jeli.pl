@@ -3,6 +3,7 @@
 import { useForm } from '@mantine/form';
 import { TextInput, Button, Textarea, Group } from '@mantine/core';
 import classes from './ContactMe.module.css';
+import { sendEmail } from '@/utils/send-email';
 
 
 interface translationProps {
@@ -18,10 +19,16 @@ interface translationProps {
     };
 }
 
+export type FormData = {
+    email: string;
+    name: string;
+    message: string;
+};
+
+
 export function ContactForm({translations}: translationProps) {
 
-
-    const form = useForm({
+    const form = useForm<FormData>({
         initialValues: { email: "", name: "", message: ""},
 
         validate: {
@@ -31,7 +38,7 @@ export function ContactForm({translations}: translationProps) {
     });
 
     return (
-        <form onSubmit={form.onSubmit(console.log)}>
+        <form onSubmit={form.onSubmit(sendEmail)}>
             <TextInput
                 label="Email"
                 placeholder={translations.email_placeholder}
