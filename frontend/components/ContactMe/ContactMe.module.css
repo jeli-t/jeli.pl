@@ -99,3 +99,7 @@
 .icons_description {
   color: var(--mantine-color-white);
 }
+
+.form_result {
+  color: var(--mantine-color-black);
+}

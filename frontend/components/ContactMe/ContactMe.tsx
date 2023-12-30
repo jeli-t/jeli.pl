@@ -29,6 +29,8 @@ export function ContactMe() {
       message_placeholder: t("message_placeholder"),
       message_error: t("message_error"),
       button: t("button"),
+      email_sent: t("email_sent"),
+      form_error: t("form_error"),
     };
 
     return (

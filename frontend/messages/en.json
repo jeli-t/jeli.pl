@@ -32,7 +32,9 @@
         "working_hours_title": "Working hours",
         "working_hours": "When I get up - when I go to sleep",
         "email_error": "Invalid email",
-        "message_error": "Write something more :("
+        "message_error": "Write something more :(",
+        "email_sent": "Thank you for your message! I will write you back soon",
+        "form_error": "Oops... Something didn't work. Please write to me directly: jeli@jeli.pl"
     },
     "AboutMe": {
         "img": "Working remotely",

@@ -32,7 +32,9 @@
         "working_hours_title": "Godziny pracy",
         "working_hours": "Jak wstanę - jak pójdę spać",
         "email_error": "Nieprawidłowy adres e-mail",
-        "message_error": "Napisz coś więcej :("
+        "message_error": "Napisz coś więcej :(",
+        "email_sent": "Dziękuję za wiadomość! Wkrótce Ci odpiszę",
+        "form_error": "Ups... Coś nie zadziałało. Napisz do mnie bezpośrednio: jeli@jeli.pl"
     },
     "AboutMe": {
         "img": "Praca zdalna",
