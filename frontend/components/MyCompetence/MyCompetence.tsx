@@ -1,6 +1,7 @@
 import { Button, Container, Group, Space, Text, Title } from '@mantine/core';
 import classes from './MyCompetence.module.css';
 import {useTranslations} from 'next-intl';
+import {Link} from '@/navigation';
 
 
 export function MyCompetence() {
@@ -25,6 +26,15 @@ export function MyCompetence() {
           <Text size="lg">
             {t('content3')}
           </Text>
+          <Space my="sm" />
+            <div>
+              <Link href={'/portfolio'}>
+                <Button className={classes.link}>Portfolio</Button>
+              </Link>
+              <a href="https://github.com/jeli-t">
+                <Button className={classes.link}>Github</Button>
+              </a>
+            </div>
         </div>
         <div className={classes.right_section}>
           <Title order={1} className={classes.title}>

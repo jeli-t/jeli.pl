@@ -69,3 +69,7 @@
 .title {
     text-decoration: underline 4px solid var(--mantine-color-SkyBlue-6);
 }
+
+.link {
+    margin-right: 10px;
+}
