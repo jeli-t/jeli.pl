@@ -59,5 +59,13 @@
         "content4": "A few commercial projects",
         "content5": "7+ years of experience in total",
         "button": "Read more about me"
+    },
+    "WhatIOffer": {
+        "title1": "",
+        "description1": "",
+        "title2": "",
+        "description2": "",
+        "title3": "",
+        "description3": ""
     }
 }
