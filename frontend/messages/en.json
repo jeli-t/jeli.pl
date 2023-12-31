@@ -49,5 +49,15 @@
         "skills": "My Skills",
         "polish": "Polish",
         "english": "English"
+    },
+    "AboutPreview": {
+        "img": "Check me out",
+        "title": "Check me out",
+        "content1": "I'm from Poland, but I also speak English",
+        "content2": "Started programming at the age of 12",
+        "content3": "Currently 5th year of technical school",
+        "content4": "A few commercial projects",
+        "content5": "7+ years of experience in total",
+        "button": "Read more about me"
     }
 }

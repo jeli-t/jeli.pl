@@ -49,5 +49,15 @@
         "skills": "Moje Umiejętności",
         "polish": "Polski",
         "english": "Angielski"
+    },
+    "AboutPreview": {
+        "img": "Sprawdź mnie",
+        "title": "Sprawdź mnie",
+        "content1": "Jestem z Polski, ale mówię też po angielsku",
+        "content2": "Zacząłem programować w wieku 12 lat",
+        "content3": "Obecnie 5 rok na kierunku Technik Informatyk",
+        "content4": "Kilka projektów komercyjnych",
+        "content5": "Łącznie ponad 7 lat doświadczenia",
+        "button": "Przeczytaj więcej o mnie"
     }
 }
