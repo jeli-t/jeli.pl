@@ -21,19 +21,19 @@ export function AboutPreview() {
           </Title>
           <Space my="sm" />
           <Stack gap={5}>
-            <Text size="xl">
+            <Text className={classes.description}>
               - {t('content1')}
             </Text>
-            <Text size="xl">
+            <Text className={classes.description}>
               - {t('content2')}
             </Text>
-            <Text size="xl">
+            <Text className={classes.description}>
               - {t('content3')}
             </Text>
-            <Text size="xl">
+            <Text className={classes.description}>
               - {t('content4')}
             </Text>
-            <Text size="xl">
+            <Text className={classes.description}>
               - {t('content5')}
             </Text>
           </Stack>
