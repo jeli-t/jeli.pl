@@ -59,5 +59,13 @@
         "content4": "Kilka projektów komercyjnych",
         "content5": "Łącznie ponad 7 lat doświadczenia",
         "button": "Przeczytaj więcej o mnie"
+    },
+    "WhatIOffer": {
+        "title1": "Kompleksowe rozwiązania",
+        "description1": "Jako full-stack web developer oferuję kompleksowe tworzenie stron internetowych od projektu do produkcji.",
+        "title2": "Freelance & Praca tymczasowa",
+        "description2": "Pracuję jako freelancer lub tymczasowo w małych zespołach. Jestem otwarty na wszystkie oferty.",
+        "title3": "100% Zdalnie",
+        "description3": "Ponieważ dążę do stylu życia cyfrowego nomada, pracuję w 100% zdalnie. Będziemy kontaktować się za pośrednictwem poczty elektronicznej lub mediów społecznościowych."
     }
 }

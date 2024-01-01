@@ -61,11 +61,11 @@
         "button": "Read more about me"
     },
     "WhatIOffer": {
-        "title1": "",
-        "description1": "",
-        "title2": "",
-        "description2": "",
-        "title3": "",
-        "description3": ""
+        "title1": "End-to-end solutions",
+        "description1": "As a full-stack web developer, I offer comprehensive website development from design to production.",
+        "title2": "Freelance & Part Time",
+        "description2": "I work as a freelancer or part-time jobs in small teams. I'm open to all offers.",
+        "title3": "100% Remotely",
+        "description3": "Since I seek a lifestyle of a digital nomad, I work 100% remotely. We will get in touch via email or social media."
     }
 }
