@@ -67,5 +67,10 @@
         "description2": "I work as a freelancer or part-time jobs in small teams. I'm open to all offers.",
         "title3": "100% Remotely",
         "description3": "Since I seek a lifestyle of a digital nomad, I work 100% remotely. We will get in touch via email or social media."
+    },
+    "CallToAction": {
+        "title": "Got a job for me?",
+        "description": "Are you looking for a freelancer to develop your new website? Or maybe you need an extra programmer on your team?",
+        "button": "Contact me"
     }
 }

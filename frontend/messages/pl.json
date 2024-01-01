@@ -67,5 +67,10 @@
         "description2": "Pracuję jako freelancer lub tymczasowo w małych zespołach. Jestem otwarty na wszystkie oferty.",
         "title3": "100% Zdalnie",
         "description3": "Ponieważ dążę do stylu życia cyfrowego nomada, pracuję w 100% zdalnie. Będziemy kontaktować się za pośrednictwem poczty elektronicznej lub mediów społecznościowych."
+    },
+    "CallToAction": {
+        "title": "Masz dla mnie pracę?",
+        "description": "Szukasz freelancera, który stworzy Twoją nową stronę internetową? A może potrzebujesz dodatkowego programisty w swoim zespole?",
+        "button": "Napisz do mnie"
     }
 }
