@@ -13,12 +13,11 @@ export function AboutPreview() {
     <Container fluid className={classes.component}>
       <Container fluid className={classes.wrapper}>
         <div className={classes.left_section}>
-          <Image src={about_preview} alt={t('img')} title={t('img')} loading='eager' height={450} />
-        </div>
-        <div className={classes.right_section}>
-          <Title order={1} className={classes.title}>
-            {t('title')}
-          </Title>
+          <Stack>
+            <Title order={1} className={classes.title}>
+              {t('title')}
+            </Title>
+          </Stack>
           <Space my="sm" />
           <Stack gap={5}>
             <Text className={classes.description}>
@@ -43,6 +42,9 @@ export function AboutPreview() {
               {t('button')}
             </Button>
           </Link>
+        </div>
+        <div className={classes.right_section}>
+          <Image src={about_preview} alt={t('img')} title={t('img')} loading='eager' height={450} />
         </div>
       </Container>
     </Container>
