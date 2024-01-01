@@ -72,5 +72,10 @@
         "title": "Got a job for me?",
         "description": "Are you looking for a freelancer to develop your new website? Or maybe you need an extra programmer on your team?",
         "button": "Contact me"
+    },
+    "PortfolioPreview": {
+        "img": "Project mockup",
+        "title": "My portfolio",
+        "description": "Check out my recent commercial and hobby projects along with case studies on the portfolio subpage. You can check my Github as well."
     }
 }

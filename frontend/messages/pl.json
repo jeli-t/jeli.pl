@@ -72,5 +72,10 @@
         "title": "Masz dla mnie pracę?",
         "description": "Szukasz freelancera, który stworzy Twoją nową stronę internetową? A może potrzebujesz dodatkowego programisty w swoim zespole?",
         "button": "Napisz do mnie"
+    },
+    "PortfolioPreview": {
+        "img": "Project mockup",
+        "title": "Moje portfolio",
+        "description": "Sprawdź moje ostatnie projekty komercyjne i hobbystyczne wraz z case studies na podstronie portfolio. Możesz również sprawdzić mój Github."
     }
 }

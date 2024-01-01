@@ -4,6 +4,7 @@ import { HeroSection } from '@/components/HeroSection/HeroSection';
 import { AboutPreview } from '@/components/AboutPreview/AboutPreview';
 import { WhatIOffer } from '@/components/WhatIOffer/WhatIOffer';
 import { CallToAction } from '@/components/CallToAction/CallToAction';
+import { PortfolioPreview } from '@/components/PortfolioPreview/PortfolioPreview';
 
 
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <HeroSection></HeroSection>
       <WhatIOffer></WhatIOffer>
       <AboutPreview></AboutPreview>
+      <PortfolioPreview></PortfolioPreview>
       <CallToAction></CallToAction>
     </Container>
   )
