@@ -77,5 +77,11 @@
         "img": "Project mockup",
         "title": "My portfolio",
         "description": "Check out my recent commercial and hobby projects along with case studies on the portfolio subpage. You can check my Github as well."
+    },
+    "PortfolioProjects": {
+        "live_demo": "Live Demo",
+        "source_code": "Source Code",
+        "agency_title": "Digital Agency",
+        "agency_description": "Digital Marketing Agency mockup project."
     }
 }

@@ -77,5 +77,11 @@
         "img": "Project mockup",
         "title": "Moje portfolio",
         "description": "Sprawdź moje ostatnie projekty komercyjne i hobbystyczne wraz z case studies na podstronie portfolio. Możesz również sprawdzić mój Github."
+    },
+    "PortfolioProjects": {
+        "live_demo": "Wersja Demo",
+        "source_code": "Kod Źródłowy",
+        "agency_title": "Agencja Cyfrowa",
+        "agency_description": "Digital Marketing Agency mockup project."
     }
 }

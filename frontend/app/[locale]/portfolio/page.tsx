@@ -1,12 +1,12 @@
 import styles from './page.module.css'
-import { ConstructionSite } from '../../../components/ConstructionSite/ConstructionSite';
 import { Container } from '@mantine/core';
+import { PortfolioProjects } from '@/components/PortfolioProjects/PortfolioProjects';
 
 
 export default function Portfolio() {
   return (
-    <Container fluid>
-      <ConstructionSite></ConstructionSite>
+    <Container fluid pt={100}>
+      <PortfolioProjects></PortfolioProjects>
     </Container>
   )
 }
