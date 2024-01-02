@@ -81,7 +81,9 @@
     "PortfolioProjects": {
         "live_demo": "Wersja Demo",
         "source_code": "Kod Źródłowy",
-        "agency_title": "Agencja Cyfrowa",
-        "agency_description": "Digital Marketing Agency mockup project."
+        "agency_title": "Agencja Marketingowa",
+        "agency_description": "Pokazowa strona internetowa dla Agencji Marketingu Cyfrowego. Do frontendu użyłem Next JS i Mantine UI. Na backendzie użyłem Django i PostgreSQL. Wszystko połączone przez REST API.",
+        "portfolio_title": "Moja własna strona",
+        "portfolio_description": "Moja osobista strona internetowa, którą właśnie oglądasz. Do tego projektu użyłem Next JS i Mantine UI."
     }
 }

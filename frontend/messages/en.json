@@ -82,6 +82,8 @@
         "live_demo": "Live Demo",
         "source_code": "Source Code",
         "agency_title": "Digital Agency",
-        "agency_description": "Digital Marketing Agency mockup project."
+        "agency_description": "A demonstration website for a Digital Marketing Agency. For the frontend, I used Next JS and Mantine UI. For the backend, I used Django and PostgreSQL. Everything connected through a REST API.",
+        "portfolio_title": "My personal website",
+        "portfolio_description": "My personal website you are looking at right now. For this project I used Next JS and Mantine UI."
     }
 }

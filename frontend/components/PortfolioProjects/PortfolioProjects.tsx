@@ -3,7 +3,7 @@ import classes from './PortfolioProjects.module.css';
 import {useTranslations} from 'next-intl';
 import Image, { StaticImageData } from 'next/image'
 import agency from './images/agency.png';
-import portfolio_preview from './images/portfolio_preview.png';
+import portfolio from './images/portfolio.png';
 
 
 interface ProjectProps {
@@ -27,13 +27,13 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/agency'
   },
   {
-    image: portfolio_preview,
-    title: 'second_title',
-    description: 'second_description',
+    image: portfolio,
+    title: 'portfolio_title',
+    description: 'portfolio_description',
     page_button: '',
     page_link: '',
     source_button: 'source_code',
-    source_link: ''
+    source_link: 'https://github.com/jeli-t/jeli.pl'
   },
 ];
 
@@ -45,7 +45,7 @@ function Project({image, title, description, page_button, page_link, source_butt
     <Container fluid className={classes.component}>
       <Container fluid className={classes.wrapper}>
         <div className={classes.left_section}>
-          <Image src={image} alt={t('img')} title={t('img')} loading='eager' height={400} />
+          <Image src={image} alt={t(title)} title={t(title)} loading='eager' height={400} />
         </div>
         <div className={classes.right_section}>
           <Title order={1} className={classes.title}>
