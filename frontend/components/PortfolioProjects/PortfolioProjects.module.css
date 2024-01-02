@@ -12,7 +12,7 @@
 
 .wrapper {
   height: fit-content;
-  width: 70%;
+  width: 80%;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -20,19 +20,16 @@
   gap: 80px;
 
   @media (max-width: $mantine-breakpoint-xl) {
-      width: 90%;
-  }
-
-  @media (max-width: $mantine-breakpoint-lg) {
-      width: 100%;
+    justify-content: space-between;
+    width: 100%;
   }
 
   @media (max-width: $mantine-breakpoint-sm) {
-      flex-direction: column;
-      height: auto;
-      width: 100%;
-      padding: 0;
-      gap: 30px;
+    flex-direction: column;
+    height: auto;
+    width: 100%;
+    padding: 0;
+    gap: 30px;
   }
 }
 
@@ -44,26 +41,26 @@
   justify-content: center;
   align-items: center;
 
-  @media (max-width: $mantine-breakpoint-md) {
-      width: 40%;
-  }
-
   @media (max-width: $mantine-breakpoint-sm) {
-      height: 300px;
-      width: 100%;
+    width: 100%;
   }
 }
 
 .left_section > img {
   width: auto;
 
+  @media (max-width: $mantine-breakpoint-lg) {
+    height: 350px;
+  }
+
   @media (max-width: $mantine-breakpoint-md) {
-      height: 350px;
+    height: 300px;
   }
 
   @media (max-width: $mantine-breakpoint-sm) {
-      width: 300px;
-      height: auto;
+    width: 90%;
+    max-width: 400px;
+    height: auto;
   }
 }
 
@@ -75,13 +72,9 @@
   flex-direction: column;
   justify-content: center;
 
-  @media (max-width: $mantine-breakpoint-md) {
-      width: 60%;
-  }
-
   @media (max-width: $mantine-breakpoint-sm) {
-      height: auto;
-      width: 100%;
+    height: auto;
+    width: 100%;
   }
 }
 
@@ -93,7 +86,7 @@
   font-size: var(--mantine-font-size-xl);
 
   @media (max-width: $mantine-breakpoint-lg) {
-      font-size: var(--mantine-font-size-lg);
+    font-size: var(--mantine-font-size-lg);
   }
 
   @media (max-width: $mantine-breakpoint-md) {

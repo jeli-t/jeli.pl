@@ -5,7 +5,7 @@ import { PortfolioProjects } from '@/components/PortfolioProjects/PortfolioProje
 
 export default function Portfolio() {
   return (
-    <Container fluid pt={100}>
+    <Container fluid p={0} pt={100}>
       <PortfolioProjects></PortfolioProjects>
     </Container>
   )
