@@ -1,11 +1,11 @@
 import { Text, SimpleGrid, Container, rem, Title } from '@mantine/core';
-import { IconPlaneDeparture, IconPuzzle, IconDeviceLaptop } from '@tabler/icons-react';
-import classes from './WhatIOffer.module.css';
+import { IconPhone, IconPuzzle, IconUserCheck } from '@tabler/icons-react';
+import classes from './WhatDoIDo.module.css';
 import {useTranslations} from 'next-intl';
 
 
-export function WhatIOffer() {
-  const t = useTranslations('WhatIOffer');
+export function WhatDoIDo() {
+  const t = useTranslations('WhatDoIDo');
 
   return (
     <Container fluid className={classes.component}>
@@ -26,7 +26,7 @@ export function WhatIOffer() {
           <div className={classes.feature}>
             <div className={classes.overlay} />
             <div className={classes.content}>
-              <IconDeviceLaptop style={{ width: rem(38), height: rem(38) }} className={classes.icon} stroke={1.5} />
+              <IconUserCheck style={{ width: rem(38), height: rem(38) }} className={classes.icon} stroke={1.5} />
               <Title order={2} fw={700} fz="xl" mb="xs" mt={5} className={classes.title}>
                 {t("title2")}
               </Title>
@@ -38,7 +38,7 @@ export function WhatIOffer() {
           <div className={classes.feature}>
             <div className={classes.overlay} />
             <div className={classes.content}>
-              <IconPlaneDeparture style={{ width: rem(38), height: rem(38) }} className={classes.icon} stroke={1.5} />
+              <IconPhone style={{ width: rem(38), height: rem(38) }} className={classes.icon} stroke={1.5} />
               <Title order={2} fw={700} fz="xl" mb="xs" mt={5} className={classes.title}>
                 {t("title3")}
               </Title>

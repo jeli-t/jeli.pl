@@ -60,13 +60,13 @@
         "content5": "7+ years of experience in total",
         "button": "Read more about me"
     },
-    "WhatIOffer": {
-        "title1": "End-to-end solutions",
-        "description1": "As a full-stack web developer, I offer comprehensive website development from design to production.",
-        "title2": "Freelance & Part Time",
-        "description2": "I work as a freelancer or part-time jobs in small teams. I'm open to all offers.",
-        "title3": "100% Remotely",
-        "description3": "Since I seek a lifestyle of a digital nomad, I work 100% remotely. We will get in touch via email or social media."
+    "WhatDoIDo": {
+        "title1": "Comprehensive solutions",
+        "description1": "Design, development, hosting, support and management.",
+        "title2": "Personalized approach",
+        "description2": "Everything tailored to your needs and requirements.",
+        "title3": "Professional advice",
+        "description3": "Consulting on websites and web applications."
     },
     "CallToAction": {
         "title": "Got a job for me?",
