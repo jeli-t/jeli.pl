@@ -1,8 +1,8 @@
 .component {
     width: 100vw;
     height: auto;
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 120px;
+    padding-bottom: 120px;
 
     @media (max-width: $mantine-breakpoint-lg) {
         padding-top: 70px;
