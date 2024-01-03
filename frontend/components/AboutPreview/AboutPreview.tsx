@@ -32,9 +32,6 @@ export function AboutPreview() {
             <Text className={classes.description}>
               - {t('content4')}
             </Text>
-            <Text className={classes.description}>
-              - {t('content5')}
-            </Text>
           </Stack>
           <Space my="sm" />
           <Link href={'/about'}>
