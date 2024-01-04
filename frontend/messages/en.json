@@ -56,7 +56,7 @@
         "content1": "I'm from Poland, but I also speak English",
         "content2": "Started programming at the age of 12",
         "content3": "Commercial experience",
-        "content4": "I'm learning all the time",
+        "content4": "I never stop learning",
         "button": "Read more about me"
     },
     "WhatDoIDo": {
@@ -73,9 +73,9 @@
         "button": "Contact me"
     },
     "PortfolioPreview": {
-        "img": "Project mockup",
+        "img": "Portfolio",
         "title": "My portfolio",
-        "description": "Check out my recent commercial and hobby projects along with case studies on the portfolio subpage. You can check my Github as well."
+        "description": "Check out my recent projects on the portfolio subpage. All my projects along with source code you can also find on my Github."
     },
     "PortfolioProjects": {
         "live_demo": "Live Demo",

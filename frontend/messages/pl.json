@@ -73,9 +73,9 @@
         "button": "Napisz do mnie"
     },
     "PortfolioPreview": {
-        "img": "Project mockup",
+        "img": "Portfolio",
         "title": "Moje portfolio",
-        "description": "Sprawdź moje ostatnie projekty komercyjne i hobbystyczne wraz z case studies na podstronie portfolio. Możesz również sprawdzić mój Github."
+        "description": "Sprawdź moje najnowsze projekty na podstronie portfolio. Wszystkie projekty wraz z kodem źródłowym znajdziesz również na moim Githubie."
     },
     "PortfolioProjects": {
         "live_demo": "Wersja Demo",
