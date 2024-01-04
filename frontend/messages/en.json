@@ -84,8 +84,6 @@
         "agency_title": "Digital Agency",
         "agency_description": "A demonstration website for a Digital Marketing Agency. For the frontend, I used Next JS and Mantine UI. For the backend, I used Django and PostgreSQL. Everything connected through a REST API.",
         "portfolio_title": "My personal website",
-        "portfolio_description": "My personal website you are looking at right now. For this project I used Next JS and Mantine UI.",
-        "crisis_corridor_title": "Crisis Corridor",
-        "crisis_corridor_description": "The winner of Zegluga Game Jam 2023. I created this game with my friend in 48H using Python PyGame. If you want, you can download the zip file with the game."
+        "portfolio_description": "My personal website you are looking at right now. For this project I used Next JS and Mantine UI."
     }
 }

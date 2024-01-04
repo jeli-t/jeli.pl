@@ -6,7 +6,7 @@ import { CallToAction } from '@/components/CallToAction/CallToAction';
 
 export default function Portfolio() {
   return (
-    <Container fluid p={0} pt={100}>
+    <Container fluid p={0}>
       <PortfolioProjects></PortfolioProjects>
       <CallToAction></CallToAction>
     </Container>

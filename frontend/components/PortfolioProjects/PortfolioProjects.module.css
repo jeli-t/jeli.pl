@@ -1,34 +1,40 @@
 .component {
   width: 100vw;
   height: auto;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  margin-top: 120px;
 
-  @media (max-width: $mantine-breakpoint-lg) {
-      padding-top: 70px;
-      padding-bottom: 70px;
+  @media (max-width: $mantine-breakpoint-sm) {
+    margin-top: 100px;
+    margin-bottom: 60px;
   }
+
 }
 
 .wrapper {
   height: fit-content;
-  width: 80%;
+  width: 70%;
+  min-width: 1400px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   gap: 80px;
+  padding: 50px;
+  border-radius: 8px;
+  background-color: light-dark(var(--mantine-color-BlueGray-1), var(--mantine-color-dark-5));
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
 
   @media (max-width: $mantine-breakpoint-xl) {
     justify-content: space-between;
     width: 100%;
+    min-width: auto;
   }
 
   @media (max-width: $mantine-breakpoint-sm) {
     flex-direction: column;
     height: auto;
     width: 100%;
-    padding: 0;
+    padding: 20px;
     gap: 30px;
   }
 }
@@ -54,10 +60,6 @@
   }
 
   @media (max-width: $mantine-breakpoint-md) {
-    height: 300px;
-  }
-
-  @media (max-width: $mantine-breakpoint-sm) {
     width: 90%;
     max-width: 400px;
     height: auto;

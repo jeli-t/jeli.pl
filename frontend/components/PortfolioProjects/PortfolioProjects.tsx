@@ -4,7 +4,6 @@ import {useTranslations} from 'next-intl';
 import Image, { StaticImageData } from 'next/image'
 import agency from './images/agency.png';
 import portfolio from './images/portfolio.png';
-import crisis_corridor from './images/crisis_corridor.png';
 
 
 interface ProjectProps {
@@ -26,15 +25,6 @@ const mockdata = [
     page_link: 'https://jeli.vercel.app/',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/agency'
-  },
-  {
-    image: crisis_corridor,
-    title: 'crisis_corridor_title',
-    description: 'crisis_corridor_description',
-    page_button: 'download',
-    page_link: 'https://drive.google.com/file/d/1Pmyn5Wt-pECSaLbKL5D67Nq1CnAYaO7d/view',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
   },
   {
     image: portfolio,
