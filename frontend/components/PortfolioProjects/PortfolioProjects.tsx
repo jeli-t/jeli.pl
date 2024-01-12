@@ -3,6 +3,7 @@ import classes from './PortfolioProjects.module.css';
 import {useTranslations} from 'next-intl';
 import Image, { StaticImageData } from 'next/image'
 import agency from './images/agency.png';
+import akademia from './images/akademia.png';
 import portfolio from './images/portfolio.png';
 
 
@@ -25,6 +26,15 @@ const mockdata = [
     page_link: 'https://jeli.vercel.app/',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/agency'
+  },
+  {
+    image: akademia,
+    title: 'akademia_title',
+    description: 'akademia_description',
+    page_button: 'live_website',
+    page_link: 'http://akademiazaksa.pl/',
+    source_button: '',
+    source_link: ''
   },
   {
     image: portfolio,

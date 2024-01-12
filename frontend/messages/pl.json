@@ -78,12 +78,15 @@
         "description": "Sprawdź moje najnowsze projekty na podstronie portfolio. Wszystkie projekty wraz z kodem źródłowym znajdziesz również na moim Githubie."
     },
     "PortfolioProjects": {
+        "live_website": "Strona internetowa",
         "live_demo": "Wersja Demo",
         "source_code": "Kod Źródłowy",
         "download": "Pobierz",
         "agency_title": "Agencja Marketingowa",
         "agency_description": "Pokazowa strona internetowa dla Agencji Marketingu Cyfrowego. Do frontendu użyłem Next JS i Mantine UI. Na backendzie użyłem Django i PostgreSQL. Wszystko połączone przez REST API.",
         "portfolio_title": "Moja własna strona",
-        "portfolio_description": "Moja osobista strona internetowa, którą właśnie oglądasz. Do tego projektu użyłem Next JS i Mantine UI."
+        "portfolio_description": "Moja osobista strona internetowa, którą właśnie oglądasz. Do tego projektu użyłem Next JS i Mantine UI.",
+        "akademia_title": "Akademia Siatkówki Dembończyk / Wójtowicz",
+        "akademia_description": "Strona internetowa dla lokalnej akademii siatkówki. Strona oparta o system Wordpress."
     }
 }
