@@ -23,7 +23,7 @@ const mockdata = [
     title: 'agency_title',
     description: 'agency_description',
     page_button: 'live_demo',
-    page_link: 'https://jeli.vercel.app/',
+    page_link: 'https://jeli-agency.vercel.app/',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/agency'
   },
