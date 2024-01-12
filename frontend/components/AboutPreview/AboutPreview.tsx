@@ -1,4 +1,4 @@
-import { Button, Container, Space, Stack, Text, Title } from '@mantine/core';
+import { Button, Container, List, ListItem, Space, Stack, Text, Title } from '@mantine/core';
 import classes from './AboutPreview.module.css';
 import {useTranslations} from 'next-intl';
 import Image from 'next/image'
@@ -19,26 +19,25 @@ export function AboutPreview() {
             </Title>
           </Stack>
           <Space my="sm" />
-          <Stack gap={5}>
-            <Text className={classes.description}>
-              - {t('content1')}
-            </Text>
-            <Text className={classes.description}>
-              - {t('content2')}
-            </Text>
-            <Text className={classes.description}>
-              - {t('content3')}
-            </Text>
-            <Text className={classes.description}>
-              - {t('content4')}
-            </Text>
-          </Stack>
+          <List className={classes.description}>
+            <ListItem>{t('content1')}</ListItem>
+            <ListItem>{t('content2')}</ListItem>
+            <ListItem>{t('content3')}</ListItem>
+            <ListItem>{t('content4')}</ListItem>
+          </List>
           <Space my="sm" />
-          <Link href={'/about'}>
-            <Button>
-              {t('button')}
-            </Button>
-          </Link>
+          <div>
+            <Link href={'/about'}>
+              <Button>
+                {t('button')}
+              </Button>
+            </Link>
+            <a href="https://www.linkedin.com/in/tomasz-jelito/" target='_blank'>
+              <Button ml={20}>
+                LinkedIn
+              </Button>
+            </a>
+          </div>
         </div>
         <div className={classes.right_section}>
           <Image src={about_preview} alt={t('img')} title={t('img')} loading='eager' height={450} />
