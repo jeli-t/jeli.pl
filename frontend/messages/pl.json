@@ -79,7 +79,6 @@
     },
     "PortfolioProjects": {
         "live_website": "Strona internetowa",
-        "live_demo": "Wersja Demo",
         "source_code": "Kod Źródłowy",
         "download": "Pobierz",
         "agency_title": "Agencja Marketingowa",
@@ -87,6 +86,8 @@
         "portfolio_title": "Moja własna strona",
         "portfolio_description": "Moja osobista strona internetowa, którą właśnie oglądasz. Do tego projektu użyłem Next JS i Mantine UI.",
         "akademia_title": "Akademia Siatkówki Dembończyk / Wójtowicz",
-        "akademia_description": "Strona internetowa dla lokalnej akademii siatkówki. Strona oparta o system Wordpress."
+        "akademia_description": "Strona internetowa dla lokalnej akademii siatkówki. Strona oparta o system Wordpress.",
+        "akupunktura_title": "Gabinet Akupunktury",
+        "akupunktura_description": "Strona internetowa z rejestracją wizyty do gabinetu akupunktury. Strona oparta o system Wordpress."
     }
 }

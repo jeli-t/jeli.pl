@@ -79,14 +79,15 @@
     },
     "PortfolioProjects": {
         "live_website": "Website",
-        "live_demo": "Live Demo",
         "source_code": "Source Code",
         "download": "Download",
         "agency_title": "Digital Agency",
         "agency_description": "A demonstration website for a Digital Marketing Agency. For the frontend, I used Next JS and Mantine UI. For the backend, I used Django and PostgreSQL. Everything connected through a REST API.",
         "portfolio_title": "My personal website",
         "portfolio_description": "My personal website you are looking at right now. For this project I used Next JS and Mantine UI.",
-        "akademia_title": "Akademia Siatkówki Dembończyk / Wójtowicz",
-        "akademia_description": "Website for a local volleyball academy. This website is based on the Wordpress system."
+        "akademia_title": "Volleyball Academy Dembończyk / Wójtowicz",
+        "akademia_description": "Website for a local volleyball academy. This website is based on the Wordpress system.",
+        "akupunktura_title": "Acupuncture Office",
+        "akupunktura_description": "Website with appointment booking for acupuncture office. This website is based on Wordpress system."
     }
 }

@@ -4,6 +4,7 @@ import {useTranslations} from 'next-intl';
 import Image, { StaticImageData } from 'next/image'
 import agency from './images/agency.png';
 import akademia from './images/akademia.png';
+import akupunktura from './images/akupunktura.png';
 import portfolio from './images/portfolio.png';
 
 
@@ -22,7 +23,7 @@ const mockdata = [
     image: agency,
     title: 'agency_title',
     description: 'agency_description',
-    page_button: 'live_demo',
+    page_button: 'live_website',
     page_link: 'https://jeli-agency.vercel.app/',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/agency'
@@ -32,7 +33,16 @@ const mockdata = [
     title: 'akademia_title',
     description: 'akademia_description',
     page_button: 'live_website',
-    page_link: 'http://akademiazaksa.pl/',
+    page_link: 'https://akademiazaksa.pl/',
+    source_button: '',
+    source_link: ''
+  },
+  {
+    image: akupunktura,
+    title: 'akupunktura_title',
+    description: 'akupunktura_description',
+    page_button: 'live_website',
+    page_link: 'https://akupunktura-terapie.pl/',
     source_button: '',
     source_link: ''
   },
