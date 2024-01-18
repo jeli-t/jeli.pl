@@ -5,6 +5,7 @@ import Image, { StaticImageData } from 'next/image'
 import agency from './images/agency.png';
 import akademia from './images/akademia.png';
 import akupunktura from './images/akupunktura.png';
+import kniha from './images/kniha.png';
 import portfolio from './images/portfolio.png';
 
 
@@ -45,6 +46,15 @@ const mockdata = [
     page_link: 'https://akupunktura-terapie.pl/',
     source_button: '',
     source_link: ''
+  },
+  {
+    image: kniha,
+    title: 'kniha_title',
+    description: 'kniha_description',
+    page_button: 'live_website',
+    page_link: 'https://kubakniha.pl/',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/kubakniha.pl'
   },
   {
     image: portfolio,
