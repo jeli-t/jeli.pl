@@ -32,7 +32,8 @@
     flex-direction: column;
     height: auto;
     width: 100%;
-    padding: 20px;
+    padding: 0px;
+    padding-right: 10px;
     gap: 30px;
   }
 }
@@ -75,6 +76,18 @@
   @media (max-width: $mantine-breakpoint-sm) {
     height: auto;
     width: 100%;
+  }
+}
+
+.title {
+  font-size: rem(40px);
+
+  @media (max-width: $mantine-breakpoint-xl) {
+    font-size: rem(32px);
+  }
+
+  @media (max-width: $mantine-breakpoint-xs) {
+    font-size: rem(24px);
   }
 }
 
