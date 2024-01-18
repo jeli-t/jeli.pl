@@ -35,7 +35,7 @@ export function Footer() {
       </Container>
       <Container fluid className={classes.wrapper}>
         <Title order={6}>
-          © 2023 jeli.pl. All rights reserved.
+          © 2024 jeli.pl. All rights reserved.
         </Title>
       </Container>
     </Container>
