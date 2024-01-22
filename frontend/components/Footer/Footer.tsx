@@ -1,7 +1,7 @@
 import { Group, Container, ActionIcon, rem, Title } from '@mantine/core';
 import classes from './Footer.module.css';
 import {useTranslations} from 'next-intl';
-import { IconBrandInstagram, IconMail, IconBrandFacebook } from '@tabler/icons-react';
+import { IconMail, IconBrandLinkedin } from '@tabler/icons-react';
 import {Link} from '../../navigation';
 import { Logo } from './Logo'
 
@@ -22,15 +22,16 @@ export function Footer() {
             <p><Link href='/privacy' key={t('privacy')} className={classes.link}>{t('privacy')}</Link></p>
           </Group>
           <Group>
-            <ActionIcon size="md" variant="default" radius="xl">
-              <IconMail style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="md" variant="default" radius="xl">
-              <IconBrandFacebook style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
-            </ActionIcon>
-            <ActionIcon size="md" variant="default" radius="xl">
-              <IconBrandInstagram style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
-            </ActionIcon>
+            <a href="mailto:jeli@jeli.pl" className={classes.icon}>
+              <ActionIcon size="md" variant="default" radius="xl">
+                <IconMail style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
+              </ActionIcon>
+            </a>
+            <a href="https://www.linkedin.com/in/tomasz-jelito/" target='_blank' className={classes.icon}>
+              <ActionIcon size="md" variant="default" radius="xl">
+                  <IconBrandLinkedin style={{ width: rem(18), height: rem(18) }} stroke={1.5} />
+              </ActionIcon>
+            </a>
           </Group>
         </div>
       </Container>
