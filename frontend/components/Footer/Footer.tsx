@@ -19,6 +19,7 @@ export function Footer() {
             <p><Link href='/portfolio' key={t('portfolio')} className={classes.link}>{t('portfolio')}</Link></p>
             <p><Link href='/about' key={t('about')} className={classes.link}>{t('about')}</Link></p>
             <p><Link href='/contact' key={t('contact')} className={classes.link}>{t('contact')}</Link></p>
+            <p><Link href='/privacy' key={t('privacy')} className={classes.link}>{t('privacy')}</Link></p>
           </Group>
           <Group>
             <ActionIcon size="md" variant="default" radius="xl">
@@ -37,6 +38,9 @@ export function Footer() {
         <Title order={6}>
           © 2024 jeli.pl. All rights reserved.
         </Title>
+      </Container>
+      <Container fluid className={classes.privacy_link}>
+        <Link href='/privacy' key={t('privacy')} className={classes.link}>{t('privacy')}</Link>
       </Container>
     </Container>
   );

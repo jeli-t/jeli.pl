@@ -22,6 +22,11 @@ import {
 
     '/portfolio': '/portfolio',
 
+    '/privacy': {
+      en: '/privacy-policy',
+      pl: '/polityka-prywatnosci'
+    },
+
   } satisfies Pathnames<typeof locales>;
    
   export const {Link, redirect, usePathname, useRouter, getPathname} =

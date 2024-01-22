@@ -42,3 +42,16 @@
 .linkLabel {
   margin-right: rem(5px);
 }
+
+.privacy_link {
+  display: none;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100vw;
+    height: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    margin-bottom: 30px;
+  }
+}

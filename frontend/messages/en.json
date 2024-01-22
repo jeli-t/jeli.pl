@@ -3,7 +3,8 @@
         "home": "Home Page",
         "contact": "Contact",
         "about": "About",
-        "portfolio": "Portfolio"
+        "portfolio": "Portfolio",
+        "privacy": "Privacy Policy"
     },
     "HeroSection": {
         "content": "I design, develop and deploy websites and web applications.",
