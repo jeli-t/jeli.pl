@@ -4,7 +4,13 @@ import { PrivacyPolicy } from '@/components/PrivacyPolicy/PrivacyPolicy';
 import { PolitykaPrywatnosci } from '@/components/PrivacyPolicy/PolitykaPrywatnosci';
 
 
-export default function Privacy({ params: { locale } }) {
+interface PrivacyProps {
+  params: {
+    locale: string;
+  };
+}
+
+export default function Privacy({ params: { locale } }: PrivacyProps) {
   if(locale == "pl") {
     return (
       <Container fluid p={0}>
