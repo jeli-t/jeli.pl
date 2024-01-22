@@ -30,24 +30,6 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/agency'
   },
   {
-    image: akademia,
-    title: 'akademia_title',
-    description: 'akademia_description',
-    page_button: 'live_website',
-    page_link: 'https://akademiazaksa.pl/',
-    source_button: '',
-    source_link: ''
-  },
-  {
-    image: akupunktura,
-    title: 'akupunktura_title',
-    description: 'akupunktura_description',
-    page_button: 'live_website',
-    page_link: 'https://akupunktura-terapie.pl/',
-    source_button: '',
-    source_link: ''
-  },
-  {
     image: kniha,
     title: 'kniha_title',
     description: 'kniha_description',
@@ -64,6 +46,24 @@ const mockdata = [
     page_link: '',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/jeli.pl'
+  },
+  {
+    image: akademia,
+    title: 'akademia_title',
+    description: 'akademia_description',
+    page_button: 'live_website',
+    page_link: 'https://akademiazaksa.pl/',
+    source_button: '',
+    source_link: ''
+  },
+  {
+    image: akupunktura,
+    title: 'akupunktura_title',
+    description: 'akupunktura_description',
+    page_button: 'live_website',
+    page_link: 'https://akupunktura-terapie.pl/',
+    source_button: '',
+    source_link: ''
   },
 ];
 
