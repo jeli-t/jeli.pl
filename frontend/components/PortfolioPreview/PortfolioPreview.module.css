@@ -4,7 +4,6 @@
     padding-top: 100px;
     padding-bottom: 100px;
     background-color: light-dark(var(--mantine-color-BlueGray-1), var(--mantine-color-dark-5));
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 2px 15px;
 
     @media (max-width: $mantine-breakpoint-lg) {
         padding-top: 70px;
@@ -87,7 +86,15 @@
 }
 
 .title {
-    text-decoration: underline 4px solid var(--mantine-color-SkyBlue-6);
+    color: var(--mantine-color-SkyBlue-6);
+
+    @media (max-width: $mantine-breakpoint-xl) {
+        font-size: rem(32px);
+    }
+    
+    @media (max-width: $mantine-breakpoint-xs) {
+        font-size: rem(24px);
+    }
 }
 
 .description {
