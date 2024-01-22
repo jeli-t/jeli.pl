@@ -76,7 +76,7 @@
     "PortfolioPreview": {
         "img": "Portfolio",
         "title": "My portfolio",
-        "description": "Check out my recent projects on the portfolio subpage. All my projects along with source code you can also find on my Github."
+        "description": "Check out my recent projects on the portfolio subpage. More of my projects along with the source code you can also find on my Github."
     },
     "PortfolioProjects": {
         "live_website": "Website",
@@ -91,6 +91,6 @@
         "akupunktura_title": "Acupuncture Office",
         "akupunktura_description": "Website with appointment booking for acupuncture office. This website is based on Wordpress system.",
         "kniha_title": "Jakub Knihinicki - Badminton instructor",
-        "kniha_description": "Simple personal website for badminton player and instruction. This website is built using HTML and CSS only."
+        "kniha_description": "Simple personal website for badminton player and instructor. This website is built using HTML and CSS only."
     }
 }
