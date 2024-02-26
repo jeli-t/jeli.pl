@@ -1,5 +1,5 @@
 import { Text, SimpleGrid, Container, rem, Title } from '@mantine/core';
-import { IconPhone, IconPuzzle, IconUserCheck } from '@tabler/icons-react';
+import { IconTie, IconPuzzle, IconUserCheck } from '@tabler/icons-react';
 import classes from './WhatDoIDo.module.css';
 import {useTranslations} from 'next-intl';
 
@@ -9,7 +9,7 @@ export function WhatDoIDo() {
 
   return (
     <Container fluid className={classes.component}>
-      <Container mt={30} mb={30} size="lg">
+      <Container mt={30} mb={30} size="xl">
         <SimpleGrid cols={{ base: 1, sm: 3 }} spacing={50}>
           <div className={classes.feature}>
             <div className={classes.overlay} />
@@ -38,7 +38,7 @@ export function WhatDoIDo() {
           <div className={classes.feature}>
             <div className={classes.overlay} />
             <div className={classes.content}>
-              <IconPhone style={{ width: rem(38), height: rem(38) }} className={classes.icon} stroke={1.5} />
+              <IconTie style={{ width: rem(38), height: rem(38) }} className={classes.icon} stroke={1.5} />
               <Title order={2} fw={700} fz="xl" mb="xs" mt={5} className={classes.title}>
                 {t("title3")}
               </Title>
