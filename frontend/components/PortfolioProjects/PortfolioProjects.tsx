@@ -1,4 +1,4 @@
-import { Button, Container, Space, Text, Title } from '@mantine/core';
+import { Container, SimpleGrid, Text, Card, Group } from '@mantine/core';
 import classes from './PortfolioProjects.module.css';
 import {useTranslations} from 'next-intl';
 import Image, { StaticImageData } from 'next/image'
@@ -68,49 +68,64 @@ const mockdata = [
 ];
 
 
-function Project({image, title, description, page_button, page_link, source_button, source_link}: ProjectProps) {
+export function ImageCard({image, title, page_button, page_link, source_button, source_link}: ProjectProps) {
   const t = useTranslations('PortfolioProjects');
 
   return (
-    <Container fluid className={classes.component}>
-      <Container fluid className={classes.wrapper}>
-        <div className={classes.left_section}>
-          <Image src={image} alt={t(title)} title={t(title)} loading='eager' height={400} />
-        </div>
-        <div className={classes.right_section}>
-          <Title order={1} className={classes.title}>
+    <Card
+      p="lg"
+      shadow="lg"
+      className={classes.card}
+      radius="md"
+      component="a"
+      href={page_link}
+      target="_blank"
+    >
+      <div
+        className={classes.image}
+        style={{
+          backgroundImage: `url(/logo.png)`
+        }}
+      />
+      <div className={classes.overlay} />
+
+      <div className={classes.content}>
+        <div>
+          <Text size="lg" className={classes.title} fw={500}>
             {t(title)}
-          </Title>
-          <Space my="sm" />
-          <Text className={classes.description}>
-            {t(description)}
           </Text>
-          <Space my="sm" />
-          <div>
+
+          <Group justify="left" gap="lg">
             {page_button !== '' && (
-              <a href={page_link} target='_blank'>
-                <Button className={classes.link}>{t(page_button)}</Button>
+              <a href={page_link} target='_blank' style={{textDecoration: "none"}}>
+                <Text size="md" className={classes.link}>
+                  {t(page_button)}
+                </Text>
               </a>
             )}
             {source_button !== '' && (
-              <a href={source_link} target='_blank'>
-                <Button className={classes.link}>{t(source_button)}</Button>
+              <a href={source_link} target='_blank' style={{textDecoration: "none"}}>
+                <Text size="md" className={classes.link}>
+                  {t(source_button)}
+                </Text>
               </a>
             )}
-          </div>
+          </Group>
         </div>
-      </Container>
-    </Container>
+      </div>
+    </Card>
   );
 }
 
 
 export function PortfolioProjects() {
-  const items = mockdata.map((item) => <Project {...item} key={item.title} />);
+  const items = mockdata.map((item) => <ImageCard {...item} key={item.title} />);
 
   return (
-    <>
-      {items}
-    </>
+    <Container fluid className={classes.component}>
+      <SimpleGrid cols={{base: 1, sm: 2}} spacing="xl">
+        {items}
+      </SimpleGrid>
+    </Container>
   );
 }
