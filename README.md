@@ -1,11 +1,16 @@
-# [jeli.pl](https://www.jeli.pl)
+# [jeli.pl](https://www.jeli.pl) :point_left:
 
-### My personal portfolio website made using Next JS and Mantine UI.
+## My personal portfolio website
 
 ![Prewiev](https://github.com/jeli-t/jeli.pl/blob/master/preview.png)
 
+## Stack
+ - Next JS
+ - Mantine UI
+ - Docker
 
-## Docker
+
+## How to run Docker
 ```bash
 cd frontend
 docker build -t jeli-frontend . 
