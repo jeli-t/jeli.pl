@@ -4,7 +4,7 @@
   margin-top: 140px;
   margin-bottom: 60px;
 
-  @media (max-width: $mantine-breakpoint-md) {
+  @media (max-width: $mantine-breakpoint-xl) {
     width: 90vw;
   }
 
@@ -21,16 +21,30 @@
 
   @mixin hover {
     & .image {
-      transform: scale(1.03);
+      transform: scale(1.05);
     }
+  }
+
+  @media (max-width: $mantine-breakpoint-xl) {
+    height: 320px;
+  }
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    height: 280px;
   }
 }
 
 .image {
   position: absolute;
   inset: 0;
-  background-size: cover;
+  background-size: contain;
+  background-position: top;
+  background-repeat: no-repeat;
   transition: transform 500ms ease;
+
+  @media (max-width: $mantine-breakpoint-xl) {
+    background-size: cover;
+  }
 }
 
 .overlay {

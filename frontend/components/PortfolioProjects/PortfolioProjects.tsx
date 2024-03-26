@@ -10,7 +10,7 @@ import portfolio from './images/portfolio.png';
 
 
 interface ProjectProps {
-  image: StaticImageData;
+  image: string;
   title: string;
   description: string;
   page_button: string;
@@ -21,7 +21,7 @@ interface ProjectProps {
 
 const mockdata = [
   {
-    image: agency,
+    image: "url(/img/agency.png)",
     title: 'agency_title',
     description: 'agency_description',
     page_button: 'live_website',
@@ -30,7 +30,7 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/agency'
   },
   {
-    image: kniha,
+    image: "url(/img/kniha.png)",
     title: 'kniha_title',
     description: 'kniha_description',
     page_button: 'live_website',
@@ -39,7 +39,7 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/kubakniha.pl'
   },
   {
-    image: portfolio,
+    image: "url(/img/portfolio.png)",
     title: 'portfolio_title',
     description: 'portfolio_description',
     page_button: '',
@@ -48,7 +48,7 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/jeli.pl'
   },
   {
-    image: akademia,
+    image: "url(/img/akademia.png)",
     title: 'akademia_title',
     description: 'akademia_description',
     page_button: 'live_website',
@@ -57,7 +57,7 @@ const mockdata = [
     source_link: ''
   },
   {
-    image: akupunktura,
+    image: "url(/img/akupunktura.png)",
     title: 'akupunktura_title',
     description: 'akupunktura_description',
     page_button: 'live_website',
@@ -83,9 +83,7 @@ export function ImageCard({image, title, page_button, page_link, source_button, 
     >
       <div
         className={classes.image}
-        style={{
-          backgroundImage: `url(/logo.png)`
-        }}
+        style={{backgroundImage: image}}
       />
       <div className={classes.overlay} />
 
