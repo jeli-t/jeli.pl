@@ -1,18 +1,12 @@
-import { Container, SimpleGrid, Text, Card, Group } from '@mantine/core';
+import { Container, SimpleGrid, Text, Card, Group, Flex } from '@mantine/core';
 import classes from './PortfolioProjects.module.css';
 import {useTranslations} from 'next-intl';
-import Image, { StaticImageData } from 'next/image'
-import agency from './images/agency.png';
-import akademia from './images/akademia.png';
-import akupunktura from './images/akupunktura.png';
-import kniha from './images/kniha.png';
-import portfolio from './images/portfolio.png';
+import { IconWorldWww, IconBrandGithub } from '@tabler/icons-react';
 
 
 interface ProjectProps {
   image: string;
   title: string;
-  description: string;
   page_button: string;
   page_link: string;
   source_button: string;
@@ -89,26 +83,39 @@ export function ImageCard({image, title, page_button, page_link, source_button, 
 
       <div className={classes.content}>
         <div>
-          <Text size="lg" className={classes.title} fw={500}>
+          <Text size="xl" className={classes.title} fw={500}>
             {t(title)}
           </Text>
 
-          <Group justify="left" gap="lg">
+          <Flex
+            mih={50}
+            gap="sm"
+            justify="flex-start"
+            align="center"
+            direction="row"
+            wrap="wrap"
+          >
             {page_button !== '' && (
-              <a href={page_link} target='_blank' style={{textDecoration: "none"}}>
-                <Text size="md" className={classes.link}>
-                  {t(page_button)}
-                </Text>
+              <a href={page_link} target='_blank' className={classes.link}>
+                <Group gap="sm">
+                  <IconWorldWww stroke={1.5} />
+                  <Text size="lg" >
+                    {t(page_button)}
+                  </Text>
+                </Group>
               </a>
             )}
             {source_button !== '' && (
-              <a href={source_link} target='_blank' style={{textDecoration: "none"}}>
-                <Text size="md" className={classes.link}>
-                  {t(source_button)}
-                </Text>
+              <a href={source_link} target='_blank' className={classes.link}>
+                <Group gap="sm">
+                  <IconBrandGithub stroke={2} />
+                  <Text size="lg">
+                    {t(source_button)}
+                  </Text>
+                </Group>
               </a>
             )}
-          </Group>
+          </Flex>
         </div>
       </div>
     </Card>
