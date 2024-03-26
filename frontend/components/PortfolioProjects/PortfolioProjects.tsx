@@ -72,7 +72,7 @@ export function ImageCard({image, title, page_button, page_link, source_button, 
       className={classes.card}
       radius="md"
       component="a"
-      href={page_link}
+      href={page_link === "" ? source_link : page_link}
       target="_blank"
     >
       <div
