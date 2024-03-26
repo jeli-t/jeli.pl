@@ -91,6 +91,8 @@
         "akupunktura_title": "Gabinet Akupunktury",
         "akupunktura_description": "Strona internetowa z rejestracją wizyty do gabinetu akupunktury. Strona oparta o system Wordpress.",
         "kniha_title": "Jakub Knihinicki - Instruktor badmintona",
-        "kniha_description": "Prosta osobista strona internetowa dla zawodnika i instruktora badmintona. Ta strona jest zbudowana tylko przy użyciu HTML i CSS."
+        "kniha_description": "Prosta osobista strona internetowa dla zawodnika i instruktora badmintona. Ta strona jest zbudowana tylko przy użyciu HTML i CSS.",
+        "crisis_coriddor_title": "Crisis Corridor - gra",
+        "crisis_coriddo_description": ""
     }
 }

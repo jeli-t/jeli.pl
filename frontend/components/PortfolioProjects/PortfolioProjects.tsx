@@ -24,6 +24,15 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/agency'
   },
   {
+    image: "url(/img/portfolio.png)",
+    title: 'portfolio_title',
+    description: 'portfolio_description',
+    page_button: '',
+    page_link: '',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/jeli.pl'
+  },
+  {
     image: "url(/img/kniha.png)",
     title: 'kniha_title',
     description: 'kniha_description',
@@ -33,13 +42,13 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/kubakniha.pl'
   },
   {
-    image: "url(/img/portfolio.png)",
-    title: 'portfolio_title',
-    description: 'portfolio_description',
+    image: "url(/img/crisis_corridor.png)",
+    title: 'crisis_coriddor_title',
+    description: 'crisis_coriddor_description',
     page_button: '',
     page_link: '',
     source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/jeli.pl'
+    source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
   },
   {
     image: "url(/img/akademia.png)",
