@@ -7,6 +7,7 @@
 ## Stack
  - Next JS
  - Mantine UI
+ - i18n
  - Docker
 
 
