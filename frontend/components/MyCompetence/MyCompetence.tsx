@@ -1,6 +1,7 @@
-import { Button, Container, Group, Space, Text, Title } from '@mantine/core';
+import { Button, Container, Group, Space, Text, Timeline, TimelineItem, Title } from '@mantine/core';
 import classes from './MyCompetence.module.css';
 import {useTranslations} from 'next-intl';
+import { IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from '@tabler/icons-react';
 
 
 export function MyCompetence() {
@@ -14,23 +15,22 @@ export function MyCompetence() {
             {t('title')}
           </Title>
           <Space my="sm" />
-          <Text size="lg">
-            {t('content1')}
-          </Text>
-          <Space my="sm" />
-          <Text size="lg">
-            {t('content2')}
-          </Text>
-          <Space my="sm" />
-          <Text size="lg">
-            {t('content3')}
-          </Text>
-          <Space my="sm" />
-          <div>
-            <a href="https://www.linkedin.com/in/tomasz-jelito/" target='_blank'>
-              <Button className={classes.link}>LinkedIn</Button>
-            </a>
-          </div>
+          <Timeline active={2} bulletSize={20} lineWidth={2}>
+            <TimelineItem title={t('title1')} lineVariant="dashed">
+              <Text c="dimmed" size="sm">{t('description1')}</Text>
+              <Text size="xs" mt={4}>{t('date1')}</Text>
+            </TimelineItem>
+
+            <TimelineItem title={t('title2')}>
+              <Text c="dimmed" size="sm">{t('description2')}</Text>
+              <Text size="xs" mt={4}>{t('date2')}</Text>
+            </TimelineItem>
+
+            <TimelineItem title={t('title3')}>
+              <Text c="dimmed" size="sm">{t('description3')}</Text>
+              <Text size="xs" mt={4}>{t('date3')}</Text>
+            </TimelineItem>
+          </Timeline>
         </div>
         <div className={classes.right_section}>
           <Title order={1} className={classes.title}>

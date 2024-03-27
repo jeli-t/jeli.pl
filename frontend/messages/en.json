@@ -40,13 +40,19 @@
     "AboutMe": {
         "img": "Working remotely",
         "title": "Who Am I?",
-        "content": "Hi, my name is Tomasz Jelito and I'm a full-stack web developer from Poland. Programming is my passion. I like to cooperate with other creative people. I love sport and travelling."
+        "content": "Hi, my name is Tomasz Jelito and I'm a full-stack web developer from Poland. Programming is my passion. I enjoy working with other creative people and learning new things. I love sport and travelling."
     },
     "MyCompetence": {
         "title": "Experience",
-        "content1": "When I was 12 years old, my older brother showed me that the computer is not only for gaming. That's when my adventure with programming began. I spent hundreds of hours learning the basics of C++ and algorithms from youtube.",
-        "content2": "In 2019 I started studying Computer Science at a technical school, where I am currently in my 5th year. During this time, I gained a lot of hands-on experience (I have done two internships) and knowledge about how computers work and how to develop websites and web applications.",
-        "content3": "In 2023 I focused on developing my career towards freelancing and took my first commercial assignments.",
+        "title1": "Freelance",
+        "description1": "First commercial projects as a full-stack web developer",
+        "date1": "2023-now",
+        "title2": "Computer science technical school",
+        "description2": "During this time I gained a lot of knowledge and did two internships",
+        "date2": "2019-2024",
+        "title3": "First hobby projects",
+        "description3": "I spent hundreds of hours learning the basics of C++ and algorithms from youtube",
+        "date3": "2017-2019",
         "skills": "My Skills",
         "polish": "Polish",
         "english": "English"
