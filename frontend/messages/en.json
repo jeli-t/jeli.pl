@@ -74,8 +74,8 @@
     },
     "PortfolioPreview": {
         "img": "Portfolio",
-        "title": "My portfolio",
-        "description": "Check out my recent projects on the portfolio subpage. More of my projects along with the source code you can also find on my Github."
+        "title": "Check out my recent projects",
+        "button": "Discover more..."
     },
     "PortfolioProjects": {
         "live_website": "Website",

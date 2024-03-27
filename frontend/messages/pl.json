@@ -74,8 +74,8 @@
     },
     "PortfolioPreview": {
         "img": "Portfolio",
-        "title": "Moje portfolio",
-        "description": "Sprawdź moje najnowsze projekty na podstronie portfolio. Więcej moich projektów wraz z kodem źródłowym znajdziesz również na moim Githubie."
+        "title": "Sprawdź moje ostatnie projekty",
+        "button": "Zobacz więcej..."
     },
     "PortfolioProjects": {
         "live_website": "Strona internetowa",
