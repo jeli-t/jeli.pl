@@ -54,10 +54,9 @@
     "AboutPreview": {
         "img": "Check me out",
         "title": "Check me out",
-        "content1": "I'm from Poland, but I also speak English",
-        "content2": "I've been programming for over 6 years now",
-        "content3": "I have commercial experience",
-        "content4": "I never stop learning",
+        "content1": "Programmer by passion",
+        "content2": "Computer science background",
+        "content3": "Commercial experience",
         "button": "More about me"
     },
     "WhatDoIDo": {
