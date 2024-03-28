@@ -7,7 +7,7 @@
         "privacy": "Privacy Policy"
     },
     "HeroSection": {
-        "content": "I design, develop and deploy websites and web applications.",
+        "content": "I design, develop and deploy websites and web applications",
         "img": "web developer",
         "contact": "Contact me"
     },
@@ -67,9 +67,9 @@
     },
     "WhatDoIDo": {
         "title1": "Comprehensive solutions",
-        "description1": "Design, development, hosting, support and management.",
+        "description1": "Design, development, hosting, support and management",
         "title2": "Personalized approach",
-        "description2": "Everything tailored to your needs and requirements.",
+        "description2": "Everything tailored to your needs and requirements",
         "title3": "Cooperation",
         "description3": "Working with other freelancers to provide top quality"
     },
@@ -99,5 +99,18 @@
         "kniha_description": "Simple personal website for badminton player and instructor. This website is built using HTML and CSS only.",
         "crisis_coriddor_title": "Crisis Corridor - game",
         "crisis_coriddo_description": ""
+    },
+    "ProductsPreview": {
+        "title": "Find your solution",
+        "description": "Do you want to build a website that will help you reach new customers and grow your business? Write to me what you need, I'll help you find the recipe for success.",
+        "button": "Contact me",
+        "title1":"Business website",
+        "description1": "Show what you do, where people can find you and how to contact you",
+        "title2": "Booking system",
+        "description2": "Allow your clients to book their appointments conveniently",
+        "title3":"Ecommerce shop",
+        "description3":"Sell your products online, reach new customers and increase your sales",
+        "title4": "Custom projects",
+        "description4": "Need something special? Write to me"
     }
 }

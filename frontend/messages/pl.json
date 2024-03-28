@@ -7,7 +7,7 @@
         "privacy": "Polityka Prywatności"
     },
     "HeroSection": {
-        "content": "Projektuję, tworzę i wdrażam strony internetowe i aplikacje.",
+        "content": "Projektuję, tworzę i wdrażam strony internetowe i aplikacje",
         "img": "web developer",
         "contact": "Napisz do mnie"
     },
@@ -67,9 +67,9 @@
     },
     "WhatDoIDo": {
         "title1": "Kompleksowe rozwiązania",
-        "description1": "Projekt, wykonanie, hosting, wsparcie i zarządzanie.",
+        "description1": "Projekt, wykonanie, hosting, wsparcie i zarządzanie",
         "title2": "Indywidualne podejście",
-        "description2": "Wszystko dostosowane do Twoich potrzeb i wymagań.",
+        "description2": "Wszystko dostosowane do Twoich potrzeb i wymagań",
         "title3": "Współpraca",
         "description3": "Współpraca z innymi freelancerami w celu zapewnienia najwyższej jakości"
     },
@@ -99,5 +99,18 @@
         "kniha_description": "Prosta osobista strona internetowa dla zawodnika i instruktora badmintona. Ta strona jest zbudowana tylko przy użyciu HTML i CSS.",
         "crisis_coriddor_title": "Crisis Corridor - gra",
         "crisis_coriddo_description": ""
+    },
+    "ProductsPreview": {
+        "title": "Znajdź swoje rozwiązanie",
+        "description": "Chcesz zbudować stronę internetową, która pomoże Ci dotrzeć do nowych klientów i rozwinąć biznes? Napisz do mnie czego potrzebujesz, pomogę Ci znaleźć przepis na sukces.",
+        "button": "Napisz do mnie",
+        "title1":"Strona biznesowa",
+        "description1": "Pokaż czym się zajmujesz, gdzie można Cię znaleźć i jak się z Tobą skontaktować",
+        "title2": "System rezerwacji",
+        "description2": "Pozwól swoim klientom wygodnie zarezerwować termin wizyty",
+        "title3":"Sklep internetowy",
+        "description3":"Sprzedawaj swoje produkty online, docieraj do nowych klientów i zwiększaj obrót",
+        "title4": "Projekty niestandardowe",
+        "description4": "Potrzebujesz czegoś specjalnego? Napisz do mnie"
     }
 }

@@ -5,6 +5,7 @@ import { AboutPreview } from '@/components/AboutPreview/AboutPreview';
 import { WhatDoIDo } from '@/components/WhatDoIDo/WhatDoIDo';
 import { CallToAction } from '@/components/CallToAction/CallToAction';
 import { PortfolioPreview } from '@/components/PortfolioPreview/PortfolioPreview';
+import { ProductsPreview } from '@/components/ProductsPreview/ProductsPreview';
 
 
 export default function Home() {
@@ -13,8 +14,9 @@ export default function Home() {
     <Container fluid p={0}>
       <HeroSection></HeroSection>
       <WhatDoIDo></WhatDoIDo>
-      <AboutPreview></AboutPreview>
+      <ProductsPreview></ProductsPreview>
       <PortfolioPreview></PortfolioPreview>
+      <AboutPreview></AboutPreview>
       <CallToAction></CallToAction>
     </Container>
   )
