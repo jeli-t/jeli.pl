@@ -76,8 +76,6 @@
 }
 
 .title {
-    color: var(--mantine-color-SkyBlue-6);
-
     @media (max-width: $mantine-breakpoint-xl) {
         font-size: rem(32px);
     }
