@@ -17,12 +17,12 @@ export function CallToAction() {
         <Dots className={classes.dots} style={{ left: 0, top: 140 }} />
         <Dots className={classes.dots} style={{ right: 0, top: 60 }} />
 
-        <div className={classes.inner}>
+        <Container className={classes.inner}>
           <Title className={classes.title}>
             {t("title")}
           </Title>
 
-          <Container p={0} size={800}>
+          <Container p={0} size={700}>
             <Text size="lg" className={classes.description}>
               {t("description")}
             </Text>
@@ -35,7 +35,7 @@ export function CallToAction() {
               </Button>
             </Link>
           </div>
-        </div>
+        </Container>
       </Container>
     </Container>
   );

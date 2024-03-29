@@ -13,7 +13,7 @@ export function AboutPreview() {
   return (
     <Container fluid className={classes.component}>
       <Container fluid className={classes.wrapper}>
-        <div className={classes.left_section}>
+        <Container className={classes.left_section}>
           <Title order={1} className={classes.title}>
             {t('title')}
           </Title>
@@ -49,7 +49,7 @@ export function AboutPreview() {
               </Button>
             </Link>
           </div>
-        </div>
+        </Container>
         <div className={classes.right_section}>
           <Image src={about_preview} alt={t('img')} title={t('img')} loading='eager' height={450} />
         </div>

@@ -11,7 +11,7 @@ export function HeroSection() {
   return (
     <Container fluid className={classes.component}>
       <div className={classes.wrapper}>
-        <div className={classes.content}>
+        <Container className={classes.content}>
           <Title className={classes.name}>
             Tomasz Jelito
           </Title>
@@ -22,11 +22,17 @@ export function HeroSection() {
             {t("content")}
           </Text>
           <Link href={'/contact'}>
-            <Button radius="xl" size="md" className={classes.button}>
-              {t('contact')}
+            <Button
+              variant="gradient"
+              gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
+              size="md"
+              radius="md"
+              mt="xl"
+            >
+              {t("contact")}
             </Button>
           </Link>
-        </div>
+        </Container>
         <div className={classes.image}>
           <Image src={image.src} alt={t("img")} title={t("img")} />
         </div>
