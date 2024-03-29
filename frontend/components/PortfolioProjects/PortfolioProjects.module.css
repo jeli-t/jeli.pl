@@ -18,6 +18,8 @@
   position: relative;
   height: 360px;
   background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
+  display: flex;
+  justify-content: flex-end;
 
   @mixin hover {
     & .image {
@@ -53,7 +55,7 @@
 }
 
 .content {
-  height: 100%;
+  height: fit-content;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -69,9 +71,9 @@
 .link {
   color: var(--mantine-color-dark-2);
   text-decoration: none;
-  transition: transform 500ms ease;
+  transition: color 500ms ease;
 
   @mixin hover {
-    transform: scale(1.05);
+    color: var(--mantine-color-dark-1);
   }
 }

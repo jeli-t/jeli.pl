@@ -54,52 +54,50 @@ export function ImageCard({image, title, page_button, page_link, source_button, 
       shadow="lg"
       className={classes.card}
       radius="md"
-      component="a"
-      href={page_link === "" ? source_link : page_link}
-      target="_blank"
     >
-      <div
-        className={classes.image}
-        style={{backgroundImage: image}}
-      />
-      <div className={classes.overlay} />
+      <a href={page_link === "" ? source_link : page_link} target="_blank">
+        <div
+          className={classes.image}
+          style={{backgroundImage: image}}
+        />
+        <div className={classes.overlay} />
+      </a>
 
       <div className={classes.content}>
-        <div>
+        <a href={page_link === "" ? source_link : page_link} target="_blank" style={{textDecoration: "none"}}>
           <Text size="xl" className={classes.title} fw={500}>
             {t(title)}
           </Text>
-
-          <Flex
-            mih={50}
-            gap="sm"
-            justify="flex-start"
-            align="center"
-            direction="row"
-            wrap="wrap"
-          >
-            {page_button !== '' && (
-              <a href={page_link} target='_blank' className={classes.link}>
-                <Group gap="sm">
-                  <IconWorldWww stroke={1.5} />
-                  <Text size="lg" >
-                    {t(page_button)}
-                  </Text>
-                </Group>
-              </a>
-            )}
-            {source_button !== '' && (
-              <a href={source_link} target='_blank' className={classes.link}>
-                <Group gap="sm">
-                  <IconBrandGithub stroke={2} />
-                  <Text size="lg">
-                    {t(source_button)}
-                  </Text>
-                </Group>
-              </a>
-            )}
-          </Flex>
-        </div>
+        </a>
+        <Flex
+          mih={50}
+          gap="sm"
+          justify="flex-start"
+          align="center"
+          direction="row"
+          wrap="wrap"
+        >
+          {page_button !== '' && (
+            <a href={page_link} target='_blank' className={classes.link}>
+              <Group gap="sm">
+                <IconWorldWww stroke={1.5} />
+                <Text size="lg" >
+                  {t(page_button)}
+                </Text>
+              </Group>
+            </a>
+          )}
+          {source_button !== '' && (
+            <a href={source_link} target='_blank' className={classes.link}>
+              <Group gap="sm">
+                <IconBrandGithub stroke={2} />
+                <Text size="lg">
+                  {t(source_button)}
+                </Text>
+              </Group>
+            </a>
+          )}
+        </Flex>
       </div>
     </Card>
   );
