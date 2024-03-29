@@ -10,7 +10,7 @@ export function MyCompetence() {
   return (
     <Container fluid className={classes.component}>
       <Container fluid className={classes.wrapper}>
-        <div className={classes.left_section}>
+        <Container className={classes.left_section}>
           <Title order={1} className={classes.title}>
             {t('title')}
           </Title>
@@ -31,8 +31,8 @@ export function MyCompetence() {
               <Text size="xs" mt={4}>{t('date3')}</Text>
             </TimelineItem>
           </Timeline>
-        </div>
-        <div className={classes.right_section}>
+        </Container>
+        <Container className={classes.right_section}>
           <Title order={1} className={classes.title}>
             {t('skills')}
           </Title>
@@ -64,7 +64,7 @@ export function MyCompetence() {
             <Button variant='outline' className={classes.skill}>{t('polish')}</Button>
             <Button variant='outline' className={classes.skill}>{t('english')}</Button>
           </Group>
-        </div>
+        </Container>
       </Container>
     </Container>
   );

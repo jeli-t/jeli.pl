@@ -15,7 +15,7 @@ export function AboutMeSection() {
         <div className={classes.left_section}>
           <Image src={about_me} alt={t('img')} title={t('img')} loading='eager' height={600} />
         </div>
-        <div className={classes.right_section}>
+        <Container className={classes.right_section}>
           <Title order={1} className={classes.title}>
             {t('title')}
           </Title>
@@ -37,7 +37,7 @@ export function AboutMeSection() {
               <IconBrandGithub style={{ width: rem(30), height: rem(30) }} stroke={1.5} />
             </ActionIcon>
           </Group>
-        </div>
+        </Container>
       </Container>
     </Container>
   );
