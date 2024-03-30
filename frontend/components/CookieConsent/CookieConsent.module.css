@@ -1,0 +1,7 @@
+.banner {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+    z-index: 10;
+}

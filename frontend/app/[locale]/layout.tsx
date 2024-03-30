@@ -6,6 +6,7 @@ import {notFound} from 'next/navigation';
 import { locales } from '@/navigation';
 import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
 import { Footer } from '@/components/Footer/Footer';
+import { CookieConsentWrapper } from '@/components/CookieConsent/CookieConsentWrapper';
 
 
 export const metadata = {
@@ -65,6 +66,7 @@ export default function RootLayout(props: LayoutProps) {
       <body>
         <MantineProvider theme={theme}>
           <HeaderMenu></HeaderMenu>
+          <CookieConsentWrapper></CookieConsentWrapper>
           <div style={{overflowX: 'hidden'}}>
             {props.children}
           </div>

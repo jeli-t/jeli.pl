@@ -112,5 +112,10 @@
         "description3":"Sell your products online, reach new customers and increase your sales",
         "title4": "Custom projects",
         "description4": "Need something special? Write to me"
+    },
+    "CookieConsent": {
+        "title": "Cookie Notice",
+        "description": "This website uses essential cookies for theme, language preferences, and traffic analytics. By continuing to use the site, you consent to the use of these cookies.",
+        "privacy": "Privacy Policy"
     }
 }

@@ -112,5 +112,10 @@
         "description3":"Sprzedawaj swoje produkty online, docieraj do nowych klientów i zwiększaj obrót",
         "title4": "Projekty niestandardowe",
         "description4": "Potrzebujesz czegoś specjalnego? Napisz do mnie"
+    },
+    "CookieConsent": {
+        "title": "Informacja o plikach cookie",
+        "description": "Ta strona internetowa używa niezbędnych plików cookie do obsługi motywu, preferencji językowych oraz analizy ruchu na stronie. Kontynuując korzystanie ze strony, wyrażasz zgodę na używanie tych plików cookie.",
+        "privacy": "Polityka Prywatności"
     }
 }
