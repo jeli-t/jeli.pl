@@ -64,16 +64,16 @@ export function ContactMe() {
                           <Box mr="md">
                             <IconMail style={{ width: rem(24), height: rem(24) }} />
                           </Box>
-                          <div>
-                            <Text size="xs" className={classes.icons_title}>
-                              Email
-                            </Text>
-                            <a href="mailto:jeli@jeli.pl" style={{textDecoration: "none"}}>
-                              <Text className={classes.icons_description}>
-                                jeli@jeli.pl
+                          <a href="mailto:jeli@jeli.pl" style={{textDecoration: "none", color: "var(--text-color)"}}>
+                            <div>
+                              <Text size="xs" className={classes.icons_title}>
+                                Email
                               </Text>
-                            </a>
-                          </div>
+                                <Text className={classes.icons_description}>
+                                  jeli@jeli.pl
+                                </Text>
+                            </div>
+                          </a>
                         </div>
 
                       <div className={classes.icons_wrapper}>
