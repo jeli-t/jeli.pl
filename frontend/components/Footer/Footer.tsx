@@ -24,17 +24,20 @@ export function Footer() {
             <p><Link href='/privacy' key={t('privacy')} className={classes.link}>{t('privacy')}</Link></p>
           </Group>
           <Group w={"15%"} gap={0} justify="flex-end" wrap="nowrap">
-            <ActionIcon component='a' href="" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://twitter.com/tomasz_jelito" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandTwitter style={{ width: rem(22), height: rem(22) }} stroke={1.5} />
             </ActionIcon>
-            <ActionIcon component='a' href="https://www.linkedin.com/in/tomasz-jelito/" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://www.linkedin.com/in/tomasz-jelito/" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandLinkedin style={{ width: rem(22), height: rem(22) }} stroke={1.5} />
             </ActionIcon>
-            <ActionIcon component='a' href="" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://www.instagram.com/tomaszjelito/" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandInstagram style={{ width: rem(22), height: rem(22) }} stroke={1.5} />
             </ActionIcon>
-            <ActionIcon component='a' href="" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://github.com/jeli-t" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandGithub style={{ width: rem(22), height: rem(22) }} stroke={1.5} />
+            </ActionIcon>
+            <ActionIcon component='a' href="mailto:jeli@jeli.pl" target='_blank' size="lg" color="gray" variant="subtle">
+              <IconMail style={{ width: rem(22), height: rem(22) }} stroke={1.5} />
             </ActionIcon>
           </Group>
         </div>

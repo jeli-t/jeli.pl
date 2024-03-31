@@ -24,16 +24,16 @@ export function AboutMeSection() {
             {t('content')}
           </Text>
           <Group gap={10} className={classes.socials} justify="flex-start" wrap="nowrap">
-            <ActionIcon component='a' href="" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://twitter.com/tomasz_jelito" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandTwitter style={{ width: rem(30), height: rem(30) }} stroke={1.5} />
             </ActionIcon>
-            <ActionIcon component='a' href="https://www.linkedin.com/in/tomasz-jelito/" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://www.linkedin.com/in/tomasz-jelito/" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandLinkedin style={{ width: rem(30), height: rem(30) }} stroke={1.5} />
             </ActionIcon>
-            <ActionIcon component='a' href="" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://www.instagram.com/tomaszjelito/" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandInstagram style={{ width: rem(30), height: rem(30) }} stroke={1.5} />
             </ActionIcon>
-            <ActionIcon component='a' href="" size="lg" color="gray" variant="subtle">
+            <ActionIcon component='a' href="https://github.com/jeli-t" target='_blank' size="lg" color="gray" variant="subtle">
               <IconBrandGithub style={{ width: rem(30), height: rem(30) }} stroke={1.5} />
             </ActionIcon>
           </Group>
