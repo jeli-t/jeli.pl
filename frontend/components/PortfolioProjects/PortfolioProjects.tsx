@@ -33,13 +33,13 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/jeli.pl'
   },
   {
-    image: "url(/img/kniha.png)",
-    title: 'kniha_title',
-    description: 'kniha_description',
-    page_button: 'live_website',
-    page_link: 'https://kubakniha.pl/',
+    image: "url(/img/algorithms.png)",
+    title: 'no_title',
+    description: '',
+    page_button: '',
+    page_link: '',
     source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/kubakniha.pl'
+    source_link: 'https://github.com/jeli-t/algorithms'
   },
   {
     image: "url(/img/crisis_corridor.png)",
@@ -49,6 +49,15 @@ const mockdata = [
     page_link: '',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
+  },
+  {
+    image: "url(/img/kniha.png)",
+    title: 'kniha_title',
+    description: 'kniha_description',
+    page_button: 'live_website',
+    page_link: 'https://kubakniha.pl/',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/kubakniha.pl'
   },
   {
     image: "url(/img/akademia.png)",
@@ -67,6 +76,15 @@ const mockdata = [
     page_link: 'https://akupunktura-terapie.pl/',
     source_button: '',
     source_link: ''
+  },
+  {
+    image: "url(/img/sudoku.png)",
+    title: 'sudoku_title',
+    description: '',
+    page_button: '',
+    page_link: '',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/algorithms'
   },
 ];
 

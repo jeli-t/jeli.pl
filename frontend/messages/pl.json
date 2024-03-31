@@ -87,6 +87,7 @@
         "live_website": "Strona internetowa",
         "source_code": "Kod Źródłowy",
         "download": "Pobierz",
+        "no_title": "",
         "agency_title": "Agencja Marketingowa",
         "agency_description": "Pokazowa strona internetowa dla Agencji Marketingu Cyfrowego. Do frontendu użyłem Next JS i Mantine UI. Na backendzie użyłem Django i PostgreSQL. Wszystko połączone przez REST API.",
         "portfolio_title": "Moja własna strona",
@@ -98,7 +99,8 @@
         "kniha_title": "Jakub Knihinicki - Instruktor badmintona",
         "kniha_description": "Prosta osobista strona internetowa dla zawodnika i instruktora badmintona. Ta strona jest zbudowana tylko przy użyciu HTML i CSS.",
         "crisis_coriddor_title": "Crisis Corridor - gra",
-        "crisis_coriddo_description": ""
+        "crisis_coriddo_description": "",
+        "sudoku_title": "Gra Sudoku"
     },
     "ProductsPreview": {
         "title": "Znajdź swoje rozwiązanie",
