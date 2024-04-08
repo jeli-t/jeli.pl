@@ -84,7 +84,7 @@ const mockdata = [
     page_button: '',
     page_link: '',
     source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/algorithms'
+    source_link: 'https://github.com/jeli-t/sudoku'
   },
 ];
 
