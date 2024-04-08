@@ -2,6 +2,17 @@ import styles from './page.module.css'
 import { Container } from '@mantine/core';
 import { PrivacyPolicy } from '@/components/PrivacyPolicy/PrivacyPolicy';
 import { PolitykaPrywatnosci } from '@/components/PrivacyPolicy/PolitykaPrywatnosci';
+import {getTranslations} from 'next-intl/server';
+
+
+export async function generateMetadata() {
+  const t = await getTranslations('SEO');
+
+  return {
+    title: t('privacy_page_title'),
+    description: t('privacy_page_description')
+  };
+}
 
 
 interface PrivacyProps {

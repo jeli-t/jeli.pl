@@ -6,6 +6,17 @@ import { WhatDoIDo } from '@/components/WhatDoIDo/WhatDoIDo';
 import { CallToAction } from '@/components/CallToAction/CallToAction';
 import { PortfolioPreview } from '@/components/PortfolioPreview/PortfolioPreview';
 import { ProductsPreview } from '@/components/ProductsPreview/ProductsPreview';
+import {getTranslations} from 'next-intl/server';
+
+
+export async function generateMetadata() {
+  const t = await getTranslations('SEO');
+
+  return {
+    title: t('home_page_title'),
+    description: t('home_page_description')
+  };
+}
 
 
 export default function Home() {

@@ -1,4 +1,16 @@
 {
+    "SEO": {
+        "home_page_title": "Tomasz Jelito | Jeli.pl",
+        "home_page_description": "Tomasz Jelito - Full Stack Developer | Design and development of websites and web applications | Comprehensive solutions | Personalized approach | Cooperation",
+        "contact_page_title": "Contact | Jeli.pl",
+        "contact_page_description": "Write to me! I am happy to answer all your questions.",
+        "about_page_title": "About | Jeli.pl",
+        "about_page_description": "Hi, my name is Tomasz Jelito and I'm a full-stack web developer from Poland. Programming is my passion. I enjoy working with creative people and learning new things. I love sport and travelling.",
+        "portfolio_page_title": "Portfolio | Jeli.pl",
+        "portfolio_page_description": "Check out my recent portfolio projects.",
+        "privacy_page_title": "Privacy Policy | Jeli.pl",
+        "privacy_page_description": "Privacy Policy"
+    },
     "HeaderMenu": {
         "home": "Home Page",
         "contact": "Contact",
