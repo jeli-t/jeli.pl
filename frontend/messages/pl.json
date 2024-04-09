@@ -111,8 +111,11 @@
         "kniha_title": "Jakub Knihinicki - Instruktor badmintona",
         "kniha_description": "Prosta osobista strona internetowa dla zawodnika i instruktora badmintona. Ta strona jest zbudowana tylko przy użyciu HTML i CSS.",
         "crisis_coriddor_title": "Crisis Corridor - gra",
-        "crisis_coriddo_description": "",
-        "sudoku_title": "Gra Sudoku"
+        "crisis_coriddor_description": "Zwycięska gra Żegluga Game Jam 2023",
+        "sudoku_title": "Gra Sudoku",
+        "sudoku_description": "Prosta gra sudoku stworzona w pythonie i tkinterze",
+        "algorithms_title": "jeli-t/algorithms",
+        "algorithms_description": "To repozytorium zawiera moje implementacje (głównie oparte na książce \"Wprowadzenie do algorytmów\") podstawowych algorytmów."
     },
     "ProductsPreview": {
         "title": "Znajdź swoje rozwiązanie",

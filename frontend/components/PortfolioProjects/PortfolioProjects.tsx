@@ -1,4 +1,4 @@
-import { Container, SimpleGrid, Text, Card, Group, Flex } from '@mantine/core';
+import { Container, SimpleGrid, Text, Card, Group, Flex, HoverCard, HoverCardTarget, HoverCardDropdown } from '@mantine/core';
 import classes from './PortfolioProjects.module.css';
 import {useTranslations} from 'next-intl';
 import { IconWorldWww, IconBrandGithub } from '@tabler/icons-react';
@@ -7,6 +7,7 @@ import { IconWorldWww, IconBrandGithub } from '@tabler/icons-react';
 interface ProjectProps {
   image: string;
   title: string;
+  description: string;
   page_button: string;
   page_link: string;
   source_button: string;
@@ -34,8 +35,8 @@ const mockdata = [
   },
   {
     image: "url(/img/algorithms.png)",
-    title: 'no_title',
-    description: '',
+    title: 'algorithms_title',
+    description: 'algorithms_description',
     page_button: '',
     page_link: '',
     source_button: 'source_code',
@@ -80,7 +81,7 @@ const mockdata = [
   {
     image: "url(/img/sudoku.png)",
     title: 'sudoku_title',
-    description: '',
+    description: 'sudoku_description',
     page_button: '',
     page_link: '',
     source_button: 'source_code',
@@ -89,61 +90,102 @@ const mockdata = [
 ];
 
 
-export function ImageCard({image, title, page_button, page_link, source_button, source_link}: ProjectProps) {
+export function ImageCard({image, title, description, page_button, page_link, source_button, source_link}: ProjectProps) {
   const t = useTranslations('PortfolioProjects');
 
   return (
-    <Card
-      p="lg"
-      shadow="lg"
-      className={classes.card}
-      radius="md"
-    >
-      <a href={page_link === "" ? source_link : page_link} target="_blank">
-        <div
-          className={classes.image}
-          style={{backgroundImage: image}}
-        />
-        <div className={classes.overlay} />
-      </a>
-
-      <div className={classes.content}>
-        <a href={page_link === "" ? source_link : page_link} target="_blank" style={{textDecoration: "none"}}>
-          <Text size="xl" className={classes.title} fw={500}>
-            {t(title)}
-          </Text>
-        </a>
-        <Flex
-          mih={50}
-          gap="sm"
-          justify="flex-start"
-          align="center"
-          direction="row"
-          wrap="wrap"
+    <HoverCard width={500} shadow='md' withArrow>
+      <HoverCardTarget>
+        <Card
+          p="lg"
+          shadow="lg"
+          className={classes.card}
+          radius="md"
         >
-          {page_button !== '' && (
-            <a href={page_link} target='_blank' className={classes.link}>
-              <Group gap="sm">
-                <IconWorldWww stroke={1.5} />
-                <Text size="lg" >
-                  {t(page_button)}
-                </Text>
-              </Group>
+          <a href={page_link === "" ? source_link : page_link} target="_blank">
+            <div
+              className={classes.image}
+              style={{backgroundImage: image}}
+            />
+            <div className={classes.overlay} />
+          </a>
+
+          <div className={classes.content}>
+            <a href={page_link === "" ? source_link : page_link} target="_blank" style={{textDecoration: "none"}}>
+              <Text size="xl" className={classes.title} fw={500}>
+                {t(title)}
+              </Text>
             </a>
-          )}
-          {source_button !== '' && (
-            <a href={source_link} target='_blank' className={classes.link}>
-              <Group gap="sm">
-                <IconBrandGithub stroke={2} />
-                <Text size="lg">
-                  {t(source_button)}
-                </Text>
-              </Group>
-            </a>
-          )}
-        </Flex>
-      </div>
-    </Card>
+            <Flex
+              mih={50}
+              gap="sm"
+              justify="flex-start"
+              align="center"
+              direction="row"
+              wrap="wrap"
+            >
+              {page_button !== '' && (
+                <a href={page_link} target='_blank' className={classes.link}>
+                  <Group gap="sm">
+                    <IconWorldWww stroke={1.5} />
+                    <Text size="lg" >
+                      {t(page_button)}
+                    </Text>
+                  </Group>
+                </a>
+              )}
+              {source_button !== '' && (
+                <a href={source_link} target='_blank' className={classes.link}>
+                  <Group gap="sm">
+                    <IconBrandGithub stroke={2} />
+                    <Text size="lg">
+                      {t(source_button)}
+                    </Text>
+                  </Group>
+                </a>
+              )}
+            </Flex>
+          </div>
+        </Card>
+      </HoverCardTarget>
+      <HoverCardDropdown>
+        <Text size="xl" fw={600} mb={10}>
+          {t(title)}
+        </Text>
+        <Text size="lg">
+          {t(description)}
+        </Text>
+        <Flex
+              mih={50}
+              gap="sm"
+              justify="flex-start"
+              align="center"
+              direction="row"
+              wrap="wrap"
+            >
+              {page_button !== '' && (
+                <a href={page_link} target='_blank' className={classes.link}>
+                  <Group gap="sm">
+                    <IconWorldWww stroke={1.5} />
+                    <Text size="lg" >
+                      {t(page_button)}
+                    </Text>
+                  </Group>
+                </a>
+              )}
+              {source_button !== '' && (
+                <a href={source_link} target='_blank' className={classes.link}>
+                  <Group gap="sm">
+                    <IconBrandGithub stroke={2} />
+                    <Text size="lg">
+                      {t(source_button)}
+                    </Text>
+                  </Group>
+                </a>
+              )}
+            </Flex>
+      </HoverCardDropdown>
+    </HoverCard>
   );
 }
 
