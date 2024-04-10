@@ -15,7 +15,7 @@ export function CookieConsent({ children } : any) {
 
   const acceptCookie = () => {
     setShowConsent(true);
-    setCookie("localConsent", "true", {});
+    setCookie("localConsent", "true", {maxAge: 31536000});
   };
 
   if (showConsent) {
