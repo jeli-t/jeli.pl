@@ -13,7 +13,6 @@
 
 ## How to run Docker
 ```bash
-cd frontend
-docker build -t jeli-frontend . 
-docker run -p 3000:3000 jeli-frontend
+docker-compose up -d --build
 ```
+Access via: **[localhost:3000](http://localhost:3000/)
