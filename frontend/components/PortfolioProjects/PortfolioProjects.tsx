@@ -1,4 +1,4 @@
-import { Container, SimpleGrid, Text, Card, Group, Flex, HoverCard, HoverCardTarget, HoverCardDropdown } from '@mantine/core';
+import { Container, SimpleGrid, Text, Card, Group, Flex, HoverCard, HoverCardTarget, HoverCardDropdown, Title } from '@mantine/core';
 import classes from './PortfolioProjects.module.css';
 import {useTranslations} from 'next-intl';
 import { IconWorldWww, IconBrandGithub } from '@tabler/icons-react';
@@ -192,9 +192,11 @@ export function ImageCard({image, title, description, page_button, page_link, so
 
 export function PortfolioProjects() {
   const items = mockdata.map((item) => <ImageCard {...item} key={item.title} />);
+  const t = useTranslations('PortfolioProjects');
 
   return (
     <Container fluid className={classes.component}>
+      <Title order={1} display={"none"}>{t("title")}</Title>
       <SimpleGrid cols={{base: 1, sm: 2}} spacing="xl">
         {items}
       </SimpleGrid>

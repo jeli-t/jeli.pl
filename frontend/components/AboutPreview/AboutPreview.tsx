@@ -14,7 +14,7 @@ export function AboutPreview() {
     <Container fluid className={classes.component}>
       <Container fluid className={classes.wrapper}>
         <Container className={classes.left_section}>
-          <Title order={1} className={classes.title}>
+          <Title order={2} className={classes.title}>
             {t('title')}
           </Title>
           <Group mt={10} gap={10} justify="flex-start" wrap="nowrap">

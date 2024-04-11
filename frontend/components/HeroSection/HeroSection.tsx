@@ -12,10 +12,10 @@ export function HeroSection() {
     <Container fluid className={classes.component}>
       <div className={classes.wrapper}>
         <Container className={classes.content}>
-          <Title className={classes.name}>
+          <Title className={classes.name} order={1}>
             Tomasz Jelito
           </Title>
-          <Title className={classes.title}>
+          <Title className={classes.title} order={2}>
             full-stack web developer
           </Title>
           <Text c="dimmed" mt="md" size='lg' className={classes.description}>

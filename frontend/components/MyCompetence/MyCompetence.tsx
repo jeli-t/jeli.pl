@@ -11,7 +11,7 @@ export function MyCompetence() {
     <Container fluid className={classes.component}>
       <Container fluid className={classes.wrapper}>
         <Container className={classes.left_section}>
-          <Title order={1} className={classes.title}>
+          <Title order={2} className={classes.title}>
             {t('title')}
           </Title>
           <Space my="sm" />
@@ -33,7 +33,7 @@ export function MyCompetence() {
           </Timeline>
         </Container>
         <Container className={classes.right_section}>
-          <Title order={1} className={classes.title}>
+          <Title order={2} className={classes.title}>
             {t('skills')}
           </Title>
           <Space my="sm" />

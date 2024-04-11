@@ -15,4 +15,4 @@
 ```bash
 docker-compose up -d --build
 ```
-Access via: **[localhost:3000](http://localhost:3000/)
+Access via: **[localhost:3000](http://localhost:3000/)**

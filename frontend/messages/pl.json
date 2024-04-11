@@ -96,6 +96,7 @@
         "button": "Zobacz więcej..."
     },
     "PortfolioProjects": {
+        "title": "Sprawdź moje ostatnie projekty",
         "live_website": "Strona internetowa",
         "source_code": "Kod Źródłowy",
         "download": "Pobierz",

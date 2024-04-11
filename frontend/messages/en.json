@@ -96,6 +96,7 @@
         "button": "Discover more..."
     },
     "PortfolioProjects": {
+        "title": "Check out my recent projects",
         "live_website": "Website",
         "source_code": "Source Code",
         "download": "Download",

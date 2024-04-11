@@ -158,7 +158,7 @@ export function PortfolioPreview() {
             Portfolio
           </Badge>
         </Group>
-        <Title order={1} mt={"sm"} className={classes.section_title}>
+        <Title order={2} mt={"sm"} className={classes.section_title}>
           {t('title')}
         </Title>
         <SimpleGrid cols={{base: 1, sm: 3}} spacing="md" mt={50}>

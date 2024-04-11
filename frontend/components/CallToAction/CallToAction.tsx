@@ -18,7 +18,7 @@ export function CallToAction() {
         <Dots className={classes.dots} style={{ right: 0, top: 60 }} />
 
         <Container className={classes.inner}>
-          <Title className={classes.title}>
+          <Title className={classes.title} order={2}>
             {t("title")}
           </Title>
 
