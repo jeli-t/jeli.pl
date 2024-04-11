@@ -14,7 +14,14 @@ export async function generateMetadata() {
 
   return {
     title: t('home_page_title'),
-    description: t('home_page_description')
+    description: t('home_page_description'),
+    alternates: {
+      canonical: '/',
+      languages: {
+        'en': 'https://jeli.pl/',
+        'pl': 'https://jeli.pl/pl'
+      },
+    }
   };
 }
 

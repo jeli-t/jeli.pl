@@ -13,6 +13,7 @@ import Script from 'next/script'
 export const metadata = {
   title: 'Tomasz Jelito | Jeli.pl',
   description: 'Tomasz Jelito - Full Stack Developer | Design and development of websites and web applications | Comprehensive solutions | Personalized approach | Cooperation',
+  metadataBase: new URL('https://jeli.pl'),
 };
 
 // https://mantine.dev/colors-generator/?color=63687C

@@ -11,7 +11,14 @@ export async function generateMetadata() {
 
   return {
     title: t('about_page_title'),
-    description: t('about_page_description')
+    description: t('about_page_description'),
+    alternates: {
+      canonical: 'about',
+      languages: {
+        'en': 'https://jeli.pl/about',
+        'pl': 'https://jeli.pl/pl/o-mnie'
+      },
+    }
   };
 }
 

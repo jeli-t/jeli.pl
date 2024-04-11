@@ -10,7 +10,14 @@ export async function generateMetadata() {
 
   return {
     title: t('portfolio_page_title'),
-    description: t('portfolio_page_description')
+    description: t('portfolio_page_description'),
+    alternates: {
+      canonical: '/portfolio',
+      languages: {
+        'en': 'https://jeli.pl/portfolio',
+        'pl': 'https://jeli.pl/pl/portfolio'
+      },
+    }
   };
 }
 

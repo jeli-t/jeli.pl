@@ -10,7 +10,14 @@ export async function generateMetadata() {
 
   return {
     title: t('privacy_page_title'),
-    description: t('privacy_page_description')
+    description: t('privacy_page_description'),
+    alternates: {
+      canonical: '/privacy',
+      languages: {
+        'en': 'https://jeli.pl/privacy-policy',
+        'pl': 'https://jeli.pl/pl/polityka-prywatnosci'
+      },
+    }
   };
 }
 
