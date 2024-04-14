@@ -85,7 +85,7 @@
 
 .name {
   font-size: rem(56px);
-  color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-4));
+  color: light-dark(var(--mantine-color-blue-6), var(--mantine-color-blue-5));
 
   @media (max-width: $mantine-breakpoint-xl) {
     font-size: rem(40px);

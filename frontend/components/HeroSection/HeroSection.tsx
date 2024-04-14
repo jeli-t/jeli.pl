@@ -23,8 +23,6 @@ export function HeroSection() {
           </Text>
           <Link href={'/contact'}>
             <Button
-              variant="gradient"
-              gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
               size="md"
               radius="md"
               mt="xl"

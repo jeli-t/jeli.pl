@@ -35,8 +35,6 @@ export function ProductsPreview() {
       <ThemeIcon
         size={44}
         radius="md"
-        variant="gradient"
-        gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
       >
         <feature.icon style={{ width: rem(26), height: rem(26) }} stroke={1.5} />
       </ThemeIcon>
@@ -62,8 +60,6 @@ export function ProductsPreview() {
             </Text>
             <Link href="/contact">
               <Button
-                variant="gradient"
-                gradient={{ deg: 133, from: 'blue', to: 'cyan' }}
                 size="md"
                 radius="md"
                 mt="xl"
