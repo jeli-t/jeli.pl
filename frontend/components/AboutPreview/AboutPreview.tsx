@@ -44,7 +44,7 @@ export function AboutPreview() {
           <Space my="md" />
           <div>
             <Link href={'/about'}>
-              <Button>
+              <Button size="lg" mt={"sm"} radius={"md"}>
                 {t('button')}
               </Button>
             </Link>

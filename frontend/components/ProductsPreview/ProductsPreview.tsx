@@ -60,9 +60,9 @@ export function ProductsPreview() {
             </Text>
             <Link href="/contact">
               <Button
-                size="md"
+                size="lg"
                 radius="md"
-                mt="xl"
+                mt="lg"
               >
                 {t("button")}
               </Button>

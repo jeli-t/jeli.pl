@@ -23,9 +23,9 @@ export function HeroSection() {
           </Text>
           <Link href={'/contact'}>
             <Button
-              size="md"
+              size="lg"
               radius="md"
-              mt="xl"
+              mt="lg"
             >
               {t("contact")}
             </Button>

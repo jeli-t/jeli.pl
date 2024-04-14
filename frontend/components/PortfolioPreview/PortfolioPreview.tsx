@@ -167,7 +167,7 @@ export function PortfolioPreview() {
         <Group justify="center">
           <div>
             <Link href="/portfolio">
-              <Button variant="outline" size="md" mt={"xl"}>
+              <Button variant="outline" size="lg" mt={"xl"} radius={"md"}>
                 {t('button')}
               </Button>
             </Link>
