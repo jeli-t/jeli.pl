@@ -108,7 +108,7 @@ export function ImageCard({image, title, description, page_button, page_link, so
         <Text size="xl" fw={600} mb={10}>
           {t(title)}
         </Text>
-        <Text size="lg">
+        <Text size="md">
           {t(description)}
         </Text>
         <Flex
@@ -152,7 +152,7 @@ export function PortfolioPreview() {
 
   return (
     <Container fluid className={classes.component}>
-      <Container fluid className={classes.wrapper}>
+      <Container size={"xl"} className={classes.wrapper}>
         <Group justify="center">
           <Badge variant="filled" size="lg">
             Portfolio
@@ -161,7 +161,7 @@ export function PortfolioPreview() {
         <Title order={2} mt={"sm"} className={classes.section_title}>
           {t('title')}
         </Title>
-        <SimpleGrid cols={{base: 1, sm: 3}} spacing="md" mt={50}>
+        <SimpleGrid cols={{base: 1, sm: 3}} spacing={50} mt={50}>
           {items}
         </SimpleGrid>
         <Group justify="center">

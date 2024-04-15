@@ -152,7 +152,7 @@ export function ImageCard({image, title, description, page_button, page_link, so
         <Text size="xl" fw={600} mb={10}>
           {t(title)}
         </Text>
-        <Text size="lg">
+        <Text size="md">
           {t(description)}
         </Text>
         <Flex

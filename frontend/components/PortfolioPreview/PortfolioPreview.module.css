@@ -6,19 +6,6 @@
   background-color: light-dark(var(--mantine-color-BlueGray-1), var(--mantine-color-dark-5));
 }
 
-.wrapper {
-  width: 70vw;
-  height: auto;
-
-  @media (max-width: $mantine-breakpoint-xl) {
-    width: 90vw;
-  }
-
-  @media (max-width: $mantine-breakpoint-sm) {
-    width: 100vw;
-  }
-}
-
 .section_title {
   font-size: rem(34px);
   font-weight: 900;
@@ -42,7 +29,8 @@
 
 .card {
   position: relative;
-  height: 280px;
+  height: 240px;
+  width: auto;
   background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
   display: flex;
   justify-content: flex-end;
