@@ -48,14 +48,14 @@ export function ProductsPreview() {
   ));
 
   return (
-    <Container fluid className={classes.component}>
+    <Container size={"xl"} className={classes.component}>
       <div className={classes.wrapper}>
         <Grid gutter={80}>
-          <GridCol span={{ base: 12, md: 5 }}>
+          <GridCol span={{ base: 12, md: 4 }}>
             <Title className={classes.title} order={2}>
               {t("title")}
             </Title>
-            <Text c="dimmed" fz={"lg"}>
+            <Text fz={"lg"}>
               {t("description")}
             </Text>
             <Link href="/contact">
@@ -68,7 +68,7 @@ export function ProductsPreview() {
               </Button>
             </Link>
           </GridCol>
-          <GridCol span={{ base: 12, md: 7 }}>
+          <GridCol span={{ base: 12, md: 8 }}>
             <SimpleGrid cols={{ base: 1, md: 2 }} spacing={50}>
               {items}
             </SimpleGrid>

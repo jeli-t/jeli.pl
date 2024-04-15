@@ -1,27 +1,7 @@
 .component {
-  width: 70vw;
   height: auto;
   padding-top: 140px;
   padding-bottom: 140px;
-
-  @media (max-width: $mantine-breakpoint-lg) {
-    width: 90vw;
-    padding-top: 70px;
-    padding-bottom: 70px;
-  }
-
-  @media (max-width: $mantine-breakpoint-sm) {
-    width: 100vw;
-    padding-top: 0px;
-    padding-bottom: 0px;
-    padding-left: 0px;
-    padding-right: 0px;
-  }
-}
-
-
-.wrapper {
-  padding: calc(var(--mantine-spacing-xl) * 2) var(--mantine-spacing-xl);
 }
 
 .title {
