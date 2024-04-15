@@ -13,7 +13,7 @@ export function HeaderMenu() {
 
   return (
     <header className={classes.header}>
-      <Container size="lg">
+      <Container size="xl">
         <div className={classes.inner}>
           <Logo></Logo>
           <Group gap={5} visibleFrom="sm">

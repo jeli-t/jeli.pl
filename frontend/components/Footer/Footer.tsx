@@ -43,7 +43,7 @@ export function Footer() {
         </div>
       </Container>
       <Container fluid className={classes.wrapper}>
-        <Title order={2} size={14}>
+        <Title order={2} size={14} fw={500}>
           © 2024 jeli.pl. All rights reserved.
         </Title>
       </Container>
