@@ -30,7 +30,7 @@ export function CallToAction() {
 
           <div className={classes.controls}>
             <Link href={'/contact'}>
-              <Button className={classes.control} size="lg">
+              <Button className={classes.control} size="lg" mt={20} radius={"md"}>
                 {t("button")}
               </Button>
             </Link>
