@@ -87,15 +87,6 @@ const mockdata = [
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
   },
-  {
-    image: "url(/img/sudoku.png)",
-    title: 'sudoku_title',
-    description: 'sudoku_description',
-    page_button: '',
-    page_link: '',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/sudoku'
-  },
 ];
 
 
