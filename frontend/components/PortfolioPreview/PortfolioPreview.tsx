@@ -17,6 +17,15 @@ interface ProjectProps {
 
 const mockdata = [
   {
+    image: "url(/img/qi.png)",
+    title: 'qi_title',
+    description: 'qi_description',
+    page_button: 'live_website',
+    page_link: 'https://qi.jeli.pl/',
+    source_button: '',
+    source_link: ''
+  },
+  {
     image: "url(/img/agency.png)",
     title: 'agency_title',
     description: 'agency_description',
@@ -26,22 +35,13 @@ const mockdata = [
     source_link: 'https://github.com/jeli-t/agency'
   },
   {
-    image: "url(/img/portfolio.png)",
-    title: 'portfolio_title',
-    description: 'portfolio_description',
-    page_button: '',
-    page_link: '',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/jeli.pl'
-  },
-  {
-    image: "url(/img/crisis_corridor.png)",
-    title: 'crisis_coriddor_title',
-    description: 'crisis_coriddor_description',
-    page_button: '',
-    page_link: '',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
+    image: "url(/img/akademia.png)",
+    title: 'akademia_title',
+    description: 'akademia_description',
+    page_button: 'live_website',
+    page_link: 'https://akademiazaksa.pl/',
+    source_button: '',
+    source_link: ''
   },
 ];
 
@@ -72,35 +72,6 @@ export function ImageCard({image, title, description, page_button, page_link, so
                 {t(title)}
               </Text>
             </a>
-            <Flex
-              mih={50}
-              gap="sm"
-              justify="flex-start"
-              align="center"
-              direction="row"
-              wrap="wrap"
-            >
-              {page_button !== '' && (
-                <a href={page_link} target='_blank' className={classes.link}>
-                  <Group gap="sm">
-                    <IconWorldWww stroke={1.5} />
-                    <Text size="lg" >
-                      {t(page_button)}
-                    </Text>
-                  </Group>
-                </a>
-              )}
-              {source_button !== '' && (
-                <a href={source_link} target='_blank' className={classes.link}>
-                  <Group gap="sm">
-                    <IconBrandGithub stroke={2} />
-                    <Text size="lg">
-                      {t(source_button)}
-                    </Text>
-                  </Group>
-                </a>
-              )}
-            </Flex>
           </div>
         </Card>
       </HoverCardTarget>
@@ -167,7 +138,7 @@ export function PortfolioPreview() {
         <Group justify="center">
           <div>
             <Link href="/portfolio">
-              <Button variant="outline" size="lg" mt={"xl"} radius={"md"}>
+              <Button variant="outline" size="lg" mt={50} radius={"md"}>
                 {t('button')}
               </Button>
             </Link>
