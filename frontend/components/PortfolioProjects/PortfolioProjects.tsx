@@ -16,6 +16,15 @@ interface ProjectProps {
 
 const mockdata = [
   {
+    image: "url(/img/qi.png)",
+    title: 'qi_title',
+    description: 'qi_description',
+    page_button: 'live_website',
+    page_link: 'https://qi.jeli.pl/',
+    source_button: '',
+    source_link: ''
+  },
+  {
     image: "url(/img/agency.png)",
     title: 'agency_title',
     description: 'agency_description',
@@ -23,33 +32,6 @@ const mockdata = [
     page_link: 'https://jeli-agency.vercel.app/',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/agency'
-  },
-  {
-    image: "url(/img/portfolio.png)",
-    title: 'portfolio_title',
-    description: 'portfolio_description',
-    page_button: '',
-    page_link: '',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/jeli.pl'
-  },
-  {
-    image: "url(/img/algorithms.png)",
-    title: 'algorithms_title',
-    description: 'algorithms_description',
-    page_button: '',
-    page_link: '',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/algorithms'
-  },
-  {
-    image: "url(/img/crisis_corridor.png)",
-    title: 'crisis_coriddor_title',
-    description: 'crisis_coriddor_description',
-    page_button: '',
-    page_link: '',
-    source_button: 'source_code',
-    source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
   },
   {
     image: "url(/img/kniha.png)",
@@ -77,6 +59,33 @@ const mockdata = [
     page_link: 'https://akupunktura-terapie.pl/',
     source_button: '',
     source_link: ''
+  },
+  {
+    image: "url(/img/portfolio.png)",
+    title: 'portfolio_title',
+    description: 'portfolio_description',
+    page_button: '',
+    page_link: '',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/jeli.pl'
+  },
+  {
+    image: "url(/img/algorithms.png)",
+    title: 'algorithms_title',
+    description: 'algorithms_description',
+    page_button: '',
+    page_link: '',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/algorithms'
+  },
+  {
+    image: "url(/img/crisis_corridor.png)",
+    title: 'crisis_coriddor_title',
+    description: 'crisis_coriddor_description',
+    page_button: '',
+    page_link: '',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/zegluga-game-jam-2023'
   },
   {
     image: "url(/img/sudoku.png)",

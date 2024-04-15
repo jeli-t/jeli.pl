@@ -116,7 +116,9 @@
         "sudoku_title": "Gra Sudoku",
         "sudoku_description": "Prosta gra sudoku stworzona w pythonie i tkinterze",
         "algorithms_title": "jeli-t/algorithms",
-        "algorithms_description": "To repozytorium zawiera moje implementacje (głównie oparte na książce \"Wprowadzenie do algorytmów\") podstawowych algorytmów."
+        "algorithms_description": "To repozytorium zawiera moje implementacje (głównie oparte na książce \"Wprowadzenie do algorytmów\") podstawowych algorytmów.",
+        "qi_title": "Qi energy",
+        "qi_description": "Strona demonstracyjna Wordpress dla salonu medycyny chińskiej."
     },
     "ProductsPreview": {
         "title": "Znajdź swoje rozwiązanie",

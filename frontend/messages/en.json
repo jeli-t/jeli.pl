@@ -116,7 +116,9 @@
         "sudoku_title": "Sudoku game",
         "sudoku_description": "Simple sudoku game made with python and tkinter",
         "algorithms_title": "jeli-t/algorithms",
-        "algorithms_description": "This repo contains my implementations (mainly based on book \"Introduction to algorithms\") of basic algorithms."
+        "algorithms_description": "This repo contains my implementations (mainly based on book \"Introduction to algorithms\") of basic algorithms.",
+        "qi_title": "Qi energy",
+        "qi_description": "Demo Wordpress website for a Chinese medicine salon."
     },
     "ProductsPreview": {
         "title": "Find your solution",
