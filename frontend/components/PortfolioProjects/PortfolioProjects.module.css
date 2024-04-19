@@ -1,17 +1,7 @@
 .component {
-  width: 70vw;
   height: auto;
   margin-top: 140px;
   margin-bottom: 60px;
-
-  @media (max-width: $mantine-breakpoint-xl) {
-    width: 90vw;
-  }
-
-  @media (max-width: $mantine-breakpoint-sm) {
-    width: 100vw;
-  }
-
 }
 
 .card {

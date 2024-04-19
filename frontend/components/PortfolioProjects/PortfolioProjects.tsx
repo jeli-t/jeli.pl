@@ -195,7 +195,7 @@ export function PortfolioProjects() {
   const t = useTranslations('PortfolioProjects');
 
   return (
-    <Container fluid className={classes.component}>
+    <Container size={"xl"} className={classes.component}>
       <Title order={1} display={"none"}>{t("title")}</Title>
       <SimpleGrid cols={{base: 1, sm: 2}} spacing="xl">
         {items}
