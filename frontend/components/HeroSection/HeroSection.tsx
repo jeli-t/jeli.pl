@@ -10,7 +10,7 @@ export function HeroSection() {
 
   return (
     <Container fluid className={classes.component}>
-      <div className={classes.wrapper}>
+      <Container size={"xl"} className={classes.wrapper}>
         <Container className={classes.content}>
           <Title className={classes.name} order={1}>
             Tomasz Jelito
@@ -34,7 +34,7 @@ export function HeroSection() {
         <div className={classes.image}>
           <Image src={image.src} alt={t("img")} title={t("img")} />
         </div>
-      </div>
+      </Container>
     </Container>
   );
 }
