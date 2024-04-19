@@ -2,9 +2,6 @@ import {
     Text,
     Title,
     SimpleGrid,
-    TextInput,
-    Textarea,
-    Button,
     Group,
     Container,
     Stack,
@@ -35,7 +32,7 @@ export function ContactMe() {
     };
 
     return (
-        <Container fluid className={classes.component}>
+        <Container size={"xl"} className={classes.component}>
             <div className={classes.wrapper}>
                 <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={50}>
                 <div>
