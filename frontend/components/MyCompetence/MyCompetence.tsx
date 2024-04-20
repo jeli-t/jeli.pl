@@ -9,7 +9,7 @@ export function MyCompetence() {
 
   return (
     <Container fluid className={classes.component}>
-      <Container fluid className={classes.wrapper}>
+      <Container size={"xl"} className={classes.wrapper}>
         <Container className={classes.left_section}>
           <Title order={2} className={classes.title}>
             {t('title')}
