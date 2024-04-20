@@ -10,8 +10,7 @@ export function AboutMeSection() {
   const t = useTranslations('AboutMe');
 
   return (
-    <Container fluid className={classes.component}>
-      <Container fluid className={classes.wrapper}>
+      <Container size={"xl"} className={classes.wrapper}>
         <div className={classes.left_section}>
           <Image src={about_me} alt={t('img')} title={t('img')} loading='eager' height={600} />
         </div>
@@ -39,6 +38,5 @@ export function AboutMeSection() {
           </Group>
         </Container>
       </Container>
-    </Container>
   );
 }
