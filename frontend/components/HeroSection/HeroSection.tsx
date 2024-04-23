@@ -1,8 +1,8 @@
 import classes from './HeroSection.module.css';
-import { Image, Container, Title, Button, Group, Text } from '@mantine/core';
-import image from './website_development.svg';
+import { Container, Title, Button, Text } from '@mantine/core';
+import { HeroImage } from './HeroImage';
 import { useTranslations } from 'next-intl';
-import {Link} from '../../navigation';
+import { Link } from '../../navigation';
 
 
 export function HeroSection() {
@@ -32,7 +32,7 @@ export function HeroSection() {
           </Link>
         </Container>
         <div className={classes.image}>
-          <Image src={image.src} alt={t("img")} title={t("img")} />
+          <HeroImage />
         </div>
       </Container>
     </Container>
