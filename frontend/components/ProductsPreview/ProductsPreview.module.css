@@ -2,6 +2,11 @@
   height: auto;
   padding-top: 140px;
   padding-bottom: 140px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
 }
 
 .title {
@@ -11,4 +16,17 @@
   line-height: 1.1;
   margin-bottom: var(--mantine-spacing-md);
   color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+}
+
+.product {
+  padding: 6px;
+  transition: transform 150ms ease, box-shadow 150ms ease;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    padding-left: 14px;
+  }
+
+  @mixin hover {
+    transform: scale(1.04);
+  }
 }

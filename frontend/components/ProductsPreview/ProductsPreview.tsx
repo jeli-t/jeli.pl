@@ -31,7 +31,7 @@ export function ProductsPreview() {
   const t = useTranslations('ProductsPreview');
 
   const items = features.map((feature) => (
-    <Container p={0} m={0} key={t(feature.title)}>
+    <Container m={0} key={t(feature.title)} className={classes.product}>
       <Container p={0} display={"flex"}>
         <ThemeIcon
           size={44}
@@ -43,7 +43,7 @@ export function ProductsPreview() {
           {t(feature.title)}
         </Text>
       </Container>
-      <Text c="dimmed" fz="sm" mt={"md"}>
+      <Text c="dimmed" fz="sm" mt={"md"} maw={400}>
         {t(feature.description)}
       </Text>
     </Container>
@@ -56,7 +56,7 @@ export function ProductsPreview() {
             <Title className={classes.title} order={2}>
               {t("title")}
             </Title>
-            <Text fz={"lg"}>
+            <Text fz={"lg"} maw={600}>
               {t("description")}
             </Text>
             <Link href="/contact">
@@ -70,7 +70,7 @@ export function ProductsPreview() {
             </Link>
           </GridCol>
           <GridCol span={{ base: 12, md: 8 }}>
-            <SimpleGrid cols={{ base: 1, md: 2 }} spacing={50}>
+            <SimpleGrid cols={{ base: 1, sm: 2 }} spacing={50}>
               {items}
             </SimpleGrid>
           </GridCol>
