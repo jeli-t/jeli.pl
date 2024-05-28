@@ -16,13 +16,13 @@ interface ProjectProps {
 
 const mockdata = [
   {
-    image: "url(/img/qi.png)",
-    title: 'qi_title',
-    description: 'qi_description',
+    image: "url(/img/furniro.png)",
+    title: 'furniro_title',
+    description: 'furniro_description',
     page_button: 'live_website',
-    page_link: 'https://qi.jeli.pl/',
-    source_button: '',
-    source_link: ''
+    page_link: 'https://jeli-furniro.vercel.app',
+    source_button: 'source_code',
+    source_link: 'https://github.com/jeli-t/furniro'
   },
   {
     image: "url(/img/agency.png)",
@@ -39,6 +39,15 @@ const mockdata = [
     description: 'akademia_description',
     page_button: 'live_website',
     page_link: 'https://akademiazaksa.pl/',
+    source_button: '',
+    source_link: ''
+  },
+  {
+    image: "url(/img/qi.png)",
+    title: 'qi_title',
+    description: 'qi_description',
+    page_button: 'live_website',
+    page_link: 'https://qi.jeli.pl/',
     source_button: '',
     source_link: ''
   },

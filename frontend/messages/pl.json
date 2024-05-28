@@ -118,7 +118,9 @@
         "algorithms_title": "jeli-t/algorithms",
         "algorithms_description": "To repozytorium zawiera moje implementacje (głównie oparte na książce \"Wprowadzenie do algorytmów\") podstawowych algorytmów.",
         "qi_title": "Qi energy",
-        "qi_description": "Strona demonstracyjna Wordpress dla salonu medycyny chińskiej."
+        "qi_description": "Strona demonstracyjna Wordpress dla salonu medycyny chińskiej.",
+        "furniro_title": "Furniro",
+        "furniro_description": "Landing page dla internetowego sklepu meblowego. Bez backendu, tylko frontend UI zakodowany w Next JS."
     },
     "ProductsPreview": {
         "title": "Znajdź swoje rozwiązanie",

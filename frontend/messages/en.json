@@ -118,7 +118,9 @@
         "algorithms_title": "jeli-t/algorithms",
         "algorithms_description": "This repo contains my implementations (mainly based on book \"Introduction to algorithms\") of basic algorithms.",
         "qi_title": "Qi energy",
-        "qi_description": "Demo Wordpress website for a Chinese medicine salon."
+        "qi_description": "Demo Wordpress website for a Chinese medicine salon.",
+        "furniro_title": "Furniro",
+        "furniro_description": "Ecommerce landing page for furniture shop. No backend, just the frontend UI coded in Next JS."
     },
     "ProductsPreview": {
         "title": "Find your solution",
