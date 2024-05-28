@@ -1,7 +1,6 @@
 import { Button, Container, Group, Space, Text, Timeline, TimelineItem, Title } from '@mantine/core';
 import classes from './MyCompetence.module.css';
 import {useTranslations} from 'next-intl';
-import { IconGitBranch, IconGitCommit, IconGitPullRequest, IconMessageDots } from '@tabler/icons-react';
 
 
 export function MyCompetence() {
@@ -53,10 +52,7 @@ export function MyCompetence() {
             <Button variant='light' className={classes.skill}>MySQL</Button>
             <Button variant='light' className={classes.skill}>HTML</Button>
             <Button variant='light' className={classes.skill}>CSS</Button>
-            <Button variant='light' className={classes.skill}>PHP</Button>
-            <Button variant='light' className={classes.skill}>Java</Button>
             <Button variant='light' className={classes.skill}>Python</Button>
-            <Button variant='light' className={classes.skill}>C++</Button>
             <Button variant='light' className={classes.skill}>Linux</Button>
             <Button variant='light' className={classes.skill}>DevOps</Button>
             <Button variant='light' className={classes.skill}>Docker</Button>
