@@ -17,7 +17,7 @@ export function HeroImage(){
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentImage((prevImage:any) => (prevImage === image ? image2 : image));
-    }, 1000);
+    }, 500);
 
     return () => clearInterval(interval);
   }, []);

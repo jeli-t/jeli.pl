@@ -18,9 +18,6 @@ export function HeroSection() {
           <Title className={classes.title} order={2}>
             full-stack web developer
           </Title>
-          <Text c="dimmed" mt="md" size='lg' className={classes.description}>
-            {t("content")}
-          </Text>
           <Link href={'/contact'}>
             <Button
               size="lg"
