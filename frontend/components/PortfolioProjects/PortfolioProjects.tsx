@@ -20,7 +20,7 @@ const mockdata = [
     title: 'furniro_title',
     description: 'furniro_description',
     page_button: 'live_website',
-    page_link: 'https://jeli-furniro.vercel.app',
+    page_link: 'https://furniro.jeli.pl',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/furniro'
   },
@@ -29,7 +29,7 @@ const mockdata = [
     title: 'agency_title',
     description: 'agency_description',
     page_button: 'live_website',
-    page_link: 'https://jeli-agency.vercel.app/',
+    page_link: 'https://agency.jeli.pl',
     source_button: 'source_code',
     source_link: 'https://github.com/jeli-t/agency'
   },
