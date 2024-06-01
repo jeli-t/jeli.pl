@@ -76,6 +76,8 @@
 }
 
 .title {
+    color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+
     @media (max-width: $mantine-breakpoint-xl) {
         font-size: rem(32px);
     }

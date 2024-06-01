@@ -78,12 +78,21 @@
         "button": "Więcej o mnie"
     },
     "WhatDoIDo": {
-        "title1": "Kompleksowe rozwiązania",
-        "description1": "Projekt, wykonanie, hosting, wsparcie i zarządzanie",
-        "title2": "Indywidualne podejście",
-        "description2": "Wszystko dostosowane do Twoich potrzeb i wymagań",
-        "title3": "Współpraca",
-        "description3": "Współpraca z innymi freelancerami w celu zapewnienia najwyższej jakości"
+        "title1": "Strony internetowe",
+        "description1_1": "Chcesz pokazać swoją firmę w Internecie?",
+        "description1_2": "Oferuję kompleksowe tworzenie stron internetowych.",
+        "bullet1_1": "Projektowanie",
+        "bullet1_2": "Programowanie",
+        "bullet1_3": "Hosting",
+        "bullet1_4": "Wsparcie i utrzymanie",
+        "title2": "Współpraca",
+        "description2_1": "Potrzebujesz dodatkowego programisty do swojego projektu?",
+        "description2_2": "Mogę Ci pomóc z:",
+        "bullet2_1": "Frontend development",
+        "bullet2_2": "Backend development",
+        "title3": "Pozostała magia",
+        "description3": "Po godzinach pracuję nad produktami SaaS, dzielę się wiedzą i czasami tworzę proste gry. Jestem otwarty na wszystkie nowe, ciekawe pomysły.",
+        "button": "Sprawdź moje portfolio"
     },
     "CallToAction": {
         "title": "Masz dla mnie pracę?",

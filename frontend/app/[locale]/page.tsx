@@ -4,8 +4,6 @@ import { HeroSection } from '@/components/HeroSection/HeroSection';
 import { AboutPreview } from '@/components/AboutPreview/AboutPreview';
 import { WhatDoIDo } from '@/components/WhatDoIDo/WhatDoIDo';
 import { CallToAction } from '@/components/CallToAction/CallToAction';
-import { PortfolioPreview } from '@/components/PortfolioPreview/PortfolioPreview';
-import { ProductsPreview } from '@/components/ProductsPreview/ProductsPreview';
 import {getTranslations} from 'next-intl/server';
 
 
@@ -32,8 +30,6 @@ export default function Home() {
     <Container fluid p={0}>
       <HeroSection></HeroSection>
       <WhatDoIDo></WhatDoIDo>
-      <ProductsPreview></ProductsPreview>
-      <PortfolioPreview></PortfolioPreview>
       <AboutPreview></AboutPreview>
       <CallToAction></CallToAction>
     </Container>

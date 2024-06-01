@@ -78,12 +78,21 @@
         "button": "More about me"
     },
     "WhatDoIDo": {
-        "title1": "Comprehensive solutions",
-        "description1": "Design, development, hosting, support and management",
-        "title2": "Personalized approach",
-        "description2": "Everything tailored to your needs and requirements",
-        "title3": "Cooperation",
-        "description3": "Working with other freelancers to provide top quality"
+        "title1": "Websites",
+        "description1_1": "Do you want to showcase your business online?",
+        "description1_2": "I offer comprehensive website development.",
+        "bullet1_1": "Design",
+        "bullet1_2": "Development",
+        "bullet1_3": "Hosting",
+        "bullet1_4": "Support and maintenance",
+        "title2": "Cooperation",
+        "description2_1": "Do you need an extra programmer for your project?",
+        "description2_2": "I can help you with:",
+        "bullet2_1": "Frontend development",
+        "bullet2_2": "Backend development",
+        "title3": "Other magic",
+        "description3": "After hours I work on SaaS products, share knowledge and sometimes develop simple games. I am open to all new interesting ideas.",
+        "button": "Check my portfolio"
     },
     "CallToAction": {
         "title": "Got a job for me?",

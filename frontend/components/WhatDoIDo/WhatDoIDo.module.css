@@ -17,33 +17,49 @@
   }
 }
 
-.feature {
-  position: relative;
-  padding-top: var(--mantine-spacing-xl);
-  padding-left: var(--mantine-spacing-xl);
+.image {
+  width: 100%;
+  height: auto;
+  transition: transform 500ms ease;
 }
 
-.overlay {
-  position: absolute;
-  height: rem(100px);
-  width: rem(160px);
-  top: 0;
-  left: 0;
-  background-color: var(--mantine-color-blue-light);
-  z-index: 1;
+.link {
+  width: 50%;
+  height: auto;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+  }
+
+  @mixin hover {
+    & .image {
+      transform: scale(1.03);
+    }
+  }
 }
 
 .content {
-  position: relative;
-  z-index: 2;
-}
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
 
-.icon {
-  color: var(--mantine-color-blue-filled);
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+  }
 }
 
 .title {
   color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+
+  @media (max-width: $mantine-breakpoint-xl) {
+      font-size: rem(32px);
+  }
+  
+  @media (max-width: $mantine-breakpoint-xs) {
+      font-size: rem(24px);
+  }
 }
 
 .description {
