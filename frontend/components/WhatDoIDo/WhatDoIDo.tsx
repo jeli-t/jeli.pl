@@ -77,7 +77,7 @@ export function WhatDoIDo() {
             </Container>
           </Flex>
           <Link href="/portfolio">
-            <Button size="lg" mt={50} radius={"md"}>
+            <Button size="lg" radius={"md"}>
               {t('button')}
             </Button>
           </Link>
