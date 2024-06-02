@@ -9,7 +9,7 @@
       rel="alternate"
       hreflang="pl"
       href="https://jeli.pl/pl"/>
-    <lastmod>2024-04-11</lastmod>
+    <lastmod>2024-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>1</priority>
   </url>
@@ -23,7 +23,7 @@
       rel="alternate"
       hreflang="pl"
       href="https://jeli.pl/pl/o-mnie"/>
-    <lastmod>2024-04-11</lastmod>
+    <lastmod>2024-06-02</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,9 +37,9 @@
       rel="alternate"
       hreflang="pl"
       href="https://jeli.pl/pl/kontakt"/>
-    <lastmod>2024-04-11</lastmod>
+    <lastmod>2024-06-02</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <priority>0.8</priority>
   </url>
   <url>
     <loc>https://jeli.pl/portfolio</loc>
@@ -51,7 +51,7 @@
       rel="alternate"
       hreflang="pl"
       href="https://jeli.pl/pl/portfolio"/>
-    <lastmod>2024-04-11</lastmod>
+    <lastmod>2024-06-02</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

@@ -12,11 +12,14 @@ export function HeroSection() {
     <Container fluid className={classes.component}>
       <Container size={"xl"} className={classes.wrapper}>
         <Container className={classes.content}>
-          <Title className={classes.name} order={1}>
-            Tomasz Jelito
-          </Title>
-          <Title className={classes.title} order={2}>
-            full-stack web developer
+          <Title order={1}>
+            <span className={classes.name}>
+              Tomasz Jelito
+            </span>
+            <br />
+            <span className={classes.title}>
+              Full Stack Web Developer
+            </span>
           </Title>
           <Link href={'/contact'}>
             <Button

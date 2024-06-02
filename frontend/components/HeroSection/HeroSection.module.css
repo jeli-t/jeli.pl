@@ -73,7 +73,7 @@
 .title {
   text-align: left;
   font-weight: 800;
-  font-size: rem(40px);
+  font-size: rem(36px);
   letter-spacing: -1px;
   color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
   margin-bottom: var(--mantine-spacing-xs);
