@@ -50,7 +50,6 @@
 
   @media (max-width: $mantine-breakpoint-xs) {
     font-size: rem(28px);
-    text-align: left;
   }
 }
 
@@ -62,7 +61,6 @@
   text-align: center;
 
   @media (max-width: $mantine-breakpoint-xs) {
-    text-align: left;
     font-size: var(--mantine-font-size-md);
   }
 }
@@ -74,5 +72,6 @@
 
   @media (max-width: $mantine-breakpoint-xs) {
     flex-direction: column;
+    align-items: center;
   }
 }
