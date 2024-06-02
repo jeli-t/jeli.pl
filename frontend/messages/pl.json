@@ -145,8 +145,8 @@
         "description4": "Potrzebujesz czegoś specjalnego? Napisz do mnie"
     },
     "CookieConsent": {
-        "title": "Informacja o plikach cookie",
-        "description": "Ta strona internetowa używa niezbędnych plików cookie do obsługi motywu, preferencji językowych oraz analizy ruchu na stronie. Kontynuując korzystanie ze strony, wyrażasz zgodę na używanie tych plików cookie.",
+        "title": "Jem twoje ciasteczka",
+        "description": "Ta strona używa niezbędnych plików cookie. Dalsze korzystanie z witryny oznacza zgodę na ich użycie.",
         "privacy": "Polityka Prywatności"
     }
 }

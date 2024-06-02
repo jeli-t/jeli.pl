@@ -10,11 +10,11 @@ export function CookieConsentWrapper() {
   return (
     <CookieConsent>
       <Group justify="space-between" mb="xs">
-        <Text fz="md" fw={600}>
+        <Text fz={16} fw={600}>
           {t("title")}
         </Text>
       </Group>
-      <Text fz="sm" mb={10}>
+      <Text fz={14} mb={5}>
         {t("description")}
       </Text>
       <Link href="/privacy">

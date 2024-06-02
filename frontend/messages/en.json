@@ -145,8 +145,8 @@
         "description4": "Need something special? Write to me"
     },
     "CookieConsent": {
-        "title": "Cookie Notice",
-        "description": "This website uses essential cookies for theme, language preferences, and traffic analytics. By continuing to use the site, you consent to the use of these cookies.",
+        "title": "I eat your cookies",
+        "description": "This website uses essential cookies. By continuing to use the site, you consent to their use.",
         "privacy": "Privacy Policy"
     }
 }

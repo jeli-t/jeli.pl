@@ -24,9 +24,9 @@ export function CookieConsent({ children } : any) {
 
   return (
     <Container className={classes.banner} size={"xs"}>
-      <Paper withBorder p="lg" radius="lg" shadow="xl">
+      <Paper withBorder p="md" radius="lg" shadow="xl">
         {children}
-        <Group justify="flex-end" mt="md">
+        <Group justify="flex-end" mt="sm">
           <Button onClick={() => acceptCookie()} variant="outline" size="sm">
               OK
           </Button>
