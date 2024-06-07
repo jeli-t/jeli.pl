@@ -2,7 +2,7 @@ import { Button, Container, Space, Text, Title, Card, Group, Flex, SimpleGrid, B
 import { IconWorldWww, IconBrandGithub } from '@tabler/icons-react';
 import classes from './PortfolioPreview.module.css';
 import {useTranslations} from 'next-intl';
-import {Link} from '@/navigation';
+import { Link } from 'next-view-transitions'
 
 
 interface ProjectProps {

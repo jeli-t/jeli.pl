@@ -3,7 +3,7 @@ import classes from './PageNotFound.module.css';
 import {useTranslations} from 'next-intl';
 import Image from 'next/image'
 import notFound from './notFound.svg';
-import {Link} from '../../navigation';
+import { Link } from 'next-view-transitions'
 
 
 export function PageNotFound() {

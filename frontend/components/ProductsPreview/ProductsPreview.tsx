@@ -2,7 +2,7 @@ import { Title, SimpleGrid, Text, Button, ThemeIcon, Grid, GridCol, rem, Contain
 import { IconBriefcase, IconZoomQuestion, IconShoppingCart, IconCalendarEvent } from '@tabler/icons-react';
 import classes from './ProductsPreview.module.css';
 import {useTranslations} from 'next-intl';
-import {Link} from '@/navigation';
+import { Link } from 'next-view-transitions'
 
 const features = [
   {

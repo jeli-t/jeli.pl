@@ -2,7 +2,7 @@ import { Group, Container, ActionIcon, rem, Title } from '@mantine/core';
 import classes from './Footer.module.css';
 import {useTranslations} from 'next-intl';
 import { IconMail, IconBrandLinkedin, IconBrandInstagram, IconBrandGithub, IconBrandTwitter } from '@tabler/icons-react';
-import {Link} from '../../navigation';
+import { Link } from 'next-view-transitions'
 import { Logo } from './Logo'
 
 

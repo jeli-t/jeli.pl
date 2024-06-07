@@ -2,7 +2,7 @@ import classes from './HeroSection.module.css';
 import { Container, Title, Button, Text } from '@mantine/core';
 import { HeroImage } from './HeroImage';
 import { useTranslations } from 'next-intl';
-import { Link } from '../../navigation';
+import { Link } from 'next-view-transitions'
 
 
 export function HeroSection() {

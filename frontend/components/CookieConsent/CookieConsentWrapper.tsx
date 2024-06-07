@@ -1,7 +1,7 @@
 import {useTranslations} from 'next-intl';
 import { CookieConsent } from './CookieConsent';
 import { Text, Group } from '@mantine/core';
-import {Link} from '@/navigation';
+import { Link } from 'next-view-transitions'
 
 
 export function CookieConsentWrapper() {

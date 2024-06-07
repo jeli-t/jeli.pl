@@ -4,7 +4,7 @@ import { useComputedColorScheme } from '@mantine/core';
 import Image from 'next/image'
 import logoDark from './logoDark.png';
 import logoLight from './logoLight.png';
-import {Link} from '../../navigation';
+import { Link } from 'next-view-transitions'
 import { useState, useEffect } from 'react'
 
 

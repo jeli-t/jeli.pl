@@ -1,7 +1,7 @@
 import { Container, Title, Text, Button, Flex, List, ListItem, rem, ThemeIcon } from '@mantine/core';
 import classes from './WhatDoIDo.module.css';
 import {useTranslations} from 'next-intl';
-import {Link} from '@/navigation';
+import { Link } from 'next-view-transitions'
 import Image from 'next/image'
 import furniro from './furniro.png';
 import agency from './agency.png';

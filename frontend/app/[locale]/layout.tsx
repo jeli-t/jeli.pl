@@ -8,6 +8,7 @@ import { HeaderMenu } from '@/components/HeaderMenu/HeaderMenu';
 import { Footer } from '@/components/Footer/Footer';
 import { CookieConsentWrapper } from '@/components/CookieConsent/CookieConsentWrapper';
 import Script from 'next/script'
+import { ViewTransitions } from 'next-view-transitions'
 
 
 export const metadata = {
@@ -61,33 +62,35 @@ export default function RootLayout(props: LayoutProps) {
   if (!locales.includes(props.params.locale as any)) notFound();
 
   return (
-    <html lang={props.params.locale}>
-      <head>
-        <Script
-          async
-          src={"https://www.googletagmanager.com/gtag/js?id=G-9P61SPBKB8"}
-        />
+    <ViewTransitions>
+      <html lang={props.params.locale}>
+        <head>
+          <Script
+            async
+            src={"https://www.googletagmanager.com/gtag/js?id=G-9P61SPBKB8"}
+          />
 
-        <Script id="google-analytics">
-          {`
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'G-9P61SPBKB8');
-          `}
-        </Script>
-        <ColorSchemeScript />
-      </head>
-      <body>
-        <MantineProvider theme={theme}>
-          <HeaderMenu></HeaderMenu>
-          <CookieConsentWrapper></CookieConsentWrapper>
-          <div style={{overflowX: 'hidden'}}>
-            {props.children}
-          </div>
-          <Footer></Footer>
-        </MantineProvider>
-      </body>
-    </html>
+          <Script id="google-analytics">
+            {`
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-9P61SPBKB8');
+            `}
+          </Script>
+          <ColorSchemeScript />
+        </head>
+        <body>
+          <MantineProvider theme={theme}>
+            <HeaderMenu></HeaderMenu>
+            <CookieConsentWrapper></CookieConsentWrapper>
+            <div style={{overflowX: 'hidden'}}>
+              {props.children}
+            </div>
+            <Footer></Footer>
+          </MantineProvider>
+        </body>
+      </html>
+    </ViewTransitions>
   );
 }

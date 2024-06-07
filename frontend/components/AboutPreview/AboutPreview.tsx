@@ -4,7 +4,7 @@ import classes from './AboutPreview.module.css';
 import {useTranslations} from 'next-intl';
 import Image from 'next/image'
 import about_preview from './about_preview.svg';
-import {Link} from '@/navigation';
+import { Link } from 'next-view-transitions'
 
 
 export function AboutPreview() {

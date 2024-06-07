@@ -3,7 +3,7 @@ import classes from './ConstructionSite.module.css';
 import {useTranslations} from 'next-intl';
 import Image from 'next/image'
 import construction from './construction.svg';
-import {Link} from '../../navigation';
+import { Link } from 'next-view-transitions'
 
 
 export function ConstructionSite() {

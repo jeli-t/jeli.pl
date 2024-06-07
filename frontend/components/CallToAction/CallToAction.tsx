@@ -2,7 +2,7 @@ import { Title, Text, Button, Container } from '@mantine/core';
 import { Dots } from './Dots';
 import classes from './CallToAction.module.css';
 import { useTranslations } from 'next-intl';
-import {Link} from '../../navigation';
+import { Link } from 'next-view-transitions'
 
 
 export function CallToAction() {
