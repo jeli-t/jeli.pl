@@ -1,8 +1,8 @@
 .component {
   width: 100%;
   height: fit-content;
-  margin-top: 100px;
-  margin-bottom: 100px;
+  padding-top: 160px;
+  padding-bottom: 160px;
 
   @media (max-width: $mantine-breakpoint-sm) {
     margin-top: 20px;

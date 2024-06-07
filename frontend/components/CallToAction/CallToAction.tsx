@@ -10,7 +10,7 @@ export function CallToAction() {
 
 
   return (
-    <Container fluid className={classes.component} p={0}>
+    <Container fluid className={classes.component} m={0}>
       <Container className={classes.wrapper} size={1400}>
         <Dots className={classes.dots} style={{ left: 0, top: 0 }} />
         <Dots className={classes.dots} style={{ left: 60, top: 0 }} />

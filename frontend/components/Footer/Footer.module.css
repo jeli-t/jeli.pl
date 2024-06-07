@@ -1,5 +1,7 @@
 .component {
-  margin-top: 200px;
+  position: relative;
+  z-index: 2;
+  background-color: var(--mantine-color-body);
 
   @media (max-width: $mantine-breakpoint-sm) {
     margin-top: 0px;

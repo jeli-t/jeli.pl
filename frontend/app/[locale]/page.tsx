@@ -28,10 +28,14 @@ export default function Home() {
 
   return (
     <Container fluid p={0}>
-      <HeroSection></HeroSection>
-      <WhatDoIDo></WhatDoIDo>
-      <AboutPreview></AboutPreview>
-      <CallToAction></CallToAction>
+      <div className={classes.hero}>
+        <HeroSection></HeroSection>
+      </div>
+      <div className={classes.content}>
+        <WhatDoIDo></WhatDoIDo>
+        <AboutPreview></AboutPreview>
+        <CallToAction></CallToAction>
+      </div>
     </Container>
   )
 }

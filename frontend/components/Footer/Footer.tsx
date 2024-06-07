@@ -10,7 +10,7 @@ export function Footer() {
   const t = useTranslations('HeaderMenu');
 
   return (
-    <Container fluid p={0} className={classes.component}>
+    <Container fluid p={0} m={0} className={classes.component}>
       <Container fluid className={classes.wrapper}>
         <div className={classes.inner}>
           <Group w={"15%"}>
