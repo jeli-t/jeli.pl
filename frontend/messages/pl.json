@@ -52,12 +52,12 @@
     "AboutMe": {
         "img": "Praca zdalna",
         "title": "Kim jestem?",
-        "content": "Cześć, nazywam się Tomasz Jelito i jestem full-stack web developerem z Polski. Lubie nowe wyzwania i nigdy nie przestaje się uczyć. Podróżnik w sercu. Sportowiec z zamiłowania. Aspirujący twórca niezależny."
+        "content": "Cześć, nazywam się Tomasz Jelito i jestem full stack web developerem z Polski. W maju 2024 roku ukończyłem technikum o kierunku informatycznym i od tego czasu realizuję swoją wymarzoną karierę jako freelancer. Podróżnik w sercu. Sportowiec z zamiłowania. Aspirujący indie developer."
     },
     "MyCompetence": {
         "title": "Doświadczenie",
         "title1": "Freelance",
-        "description1": "Pierwsze komercyjne projekty jako full-stack web developer",
+        "description1": "Pierwsze komercyjne projekty jako full stack web developer",
         "date1": "2023-teraz",
         "title2": "Technikum informatyczne",
         "description2": "W tym czasie zdobyłem dużo wiedzy i odbyłem dwa staże",

@@ -52,12 +52,12 @@
     "AboutMe": {
         "img": "Working remotely",
         "title": "Who Am I?",
-        "content": "Hi, my name is Tomasz Jelito and I am a full-stack web developer from Poland. I like new challenges and never stop learning. Traveler at heart. Athlete by passion. Aspiring indie creator."
+        "content": "Hi, my name is Tomasz Jelito and I am a full stack web developer from Poland. I graduated from a technical school with an IT specialization in May 2024 and since then I have been pursuing my dream career as a freelancer. Traveller at heart. Athlete by passion. Aspiring indie creator."
     },
     "MyCompetence": {
         "title": "Experience",
         "title1": "Freelance",
-        "description1": "First commercial projects as a full-stack web developer",
+        "description1": "First commercial projects as a full stack web developer",
         "date1": "2023-now",
         "title2": "Computer science technical school",
         "description2": "During this time I gained a lot of knowledge and did two internships",
