@@ -1,7 +1,7 @@
 .component {
   width: 100vw;
   height: auto;
-  background-color: light-dark(var(--mantine-color-BlueGray-1), var(--mantine-color-dark-5));
+  background-color: var(--mantine-color-body);
   padding-top: 80px;
   padding-bottom: 80px;
 
