@@ -16,7 +16,7 @@ export function WhatDoIDo() {
   return (
     <Container fluid className={classes.component}>
       <Container mt={30} mb={30} size="xl">
-        <Flex direction="column" align="center" justify="center" gap={60}>
+        <Flex direction="column" align="center" justify="center" gap={80}>
           <AnimationWrapper>
             <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center" gap={{ base: 0, sm: 30 }}>
               <div className={classes.banner}>
@@ -47,7 +47,7 @@ export function WhatDoIDo() {
             </Flex>
           </AnimationWrapper>
           <AnimationWrapper>
-            <Flex direction={{ base: 'column', sm: 'row-reverse' }} align="center" justify="center" gap={30}>
+            <Flex direction={{ base: 'column', sm: 'row-reverse' }} align="center" justify="center" gap={{ base: 0, sm: 30 }}>
               <div className={classes.banner}>
                 <a href="https://furniro.jeli.pl" target="_blank"><Image src={furniro} alt="furniro.jeli.pl" title="furniro.jeli.pl" className={classes.image} /></a>
               </div>
@@ -74,7 +74,7 @@ export function WhatDoIDo() {
             </Flex>
           </AnimationWrapper>
           <AnimationWrapper>
-            <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center" gap={30}>
+            <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center" gap={{ base: 0, sm: 30 }}>
               <div className={classes.banner}>
                 <a href='https://github.com/jeli-t/zegluga-game-jam-2023' target="_blank"><Image src={crisis_corridor} alt="Crisis Corridor Game" title="Crisis Corridor Game" className={classes.image} /></a>
               </div>
