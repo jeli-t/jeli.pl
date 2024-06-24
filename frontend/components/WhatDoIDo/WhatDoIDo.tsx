@@ -6,7 +6,7 @@ import Image from 'next/image'
 import furniro from './furniro.png';
 import agency from './agency.png';
 import crisis_corridor from './crisis_corridor.png';
-import { IconCircleCheck } from '@tabler/icons-react';
+import { IconCircleCheck, IconWorldWww } from '@tabler/icons-react';
 import { AnimationWrapper } from '../AnimationWrapper/AnimationWrapper';
 
 
@@ -18,13 +18,15 @@ export function WhatDoIDo() {
       <Container mt={30} mb={30} size="xl">
         <Flex direction="column" align="center" justify="center" gap={60}>
           <AnimationWrapper>
-            <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center">
-              <a href="https://agency.jeli.pl" target="_blank" className={classes.link}>
-                <Image src={agency} alt="agency.jeli.pl" title="agency.jeli.pl" className={classes.image} />
-              </a>
+            <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center" gap={{ base: 0, sm: 30 }}>
+              <div className={classes.banner}>
+                <a href="https://agency.jeli.pl" target="_blank"><Image src={agency} alt="agency.jeli.pl" title="agency.jeli.pl" className={classes.image} /></a>
+              </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
-                  {t('title1')}
+                  {t('title1_1')}
+                  <br/>
+                  <span className={classes.highlight}>{t('title1_2')}</span>
                 </Title>
                 <Text className={classes.description}>
                   {t('description1_1')}
@@ -45,13 +47,15 @@ export function WhatDoIDo() {
             </Flex>
           </AnimationWrapper>
           <AnimationWrapper>
-            <Flex direction={{ base: 'column', sm: 'row-reverse' }} align="center" justify="center">
-              <a href="https://furniro.jeli.pl" target="_blank" className={classes.link}>
-                <Image src={furniro} alt="furniro.jeli.pl" title="furniro.jeli.pl" className={classes.image} />
-              </a>
+            <Flex direction={{ base: 'column', sm: 'row-reverse' }} align="center" justify="center" gap={30}>
+              <div className={classes.banner}>
+                <a href="https://furniro.jeli.pl" target="_blank"><Image src={furniro} alt="furniro.jeli.pl" title="furniro.jeli.pl" className={classes.image} /></a>
+              </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
-                  {t('title2')}
+                  {t('title2_1')}
+                  <br/>
+                  <span className={classes.highlight}>{t('title2_2')}</span>
                 </Title>
                 <Text className={classes.description}>
                   {t('description2_1')}
@@ -70,17 +74,30 @@ export function WhatDoIDo() {
             </Flex>
           </AnimationWrapper>
           <AnimationWrapper>
-            <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center">
-              <a href='https://github.com/jeli-t/zegluga-game-jam-2023' target="_blank" className={classes.link}>
-                <Image src={crisis_corridor} alt="Crisis Corridor Game" title="Crisis Corridor Game" className={classes.image} />
-              </a>
+            <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center" gap={30}>
+              <div className={classes.banner}>
+                <a href='https://github.com/jeli-t/zegluga-game-jam-2023' target="_blank"><Image src={crisis_corridor} alt="Crisis Corridor Game" title="Crisis Corridor Game" className={classes.image} /></a>
+              </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
-                  {t('title3')}
+                  {t('title3_1')}
+                  <br/>
+                  <span className={classes.highlight}>{t('title3_2')}</span>
                 </Title>
                 <Text className={classes.description} maw={450}>
-                  {t('description3')}
+                  {t('description3_1')}
+                  <br />
+                  {t('description3_2')}
                 </Text>
+                <List mt={10} className={classes.description} center spacing="md" icon={
+                  <ThemeIcon size={24} radius={"xl"}>
+                    <IconWorldWww style={{ width: rem(18), height: rem(18) }} />
+                  </ThemeIcon>}
+                >
+                  <ListItem>
+                    <a href="#" target="_blank" className={classes.link}>www.SolopreneuerDream.com</a>
+                  </ListItem>
+                </List>
               </Container>
             </Flex>
           </AnimationWrapper>
