@@ -1,67 +1,70 @@
 .component {
   height: auto;
-  margin-top: 140px;
+  margin-top: 160px;
   margin-bottom: 60px;
 }
 
-.card {
-  position: relative;
-  height: 360px;
-  background-color: light-dark(var(--mantine-color-gray-0), var(--mantine-color-dark-6));
-  display: flex;
-  justify-content: flex-end;
-
-  @mixin hover {
-    & .image {
-      transform: scale(1.05);
-    }
-  }
-
-  @media (max-width: $mantine-breakpoint-xl) {
-    height: 320px;
-  }
-
-  @media (max-width: $mantine-breakpoint-sm) {
-    height: 280px;
-  }
-}
-
 .image {
-  position: absolute;
-  inset: 0;
-  background-size: cover;
-  background-position: top;
-  background-repeat: no-repeat;
+  width: 100%;
+  height: auto;
   transition: transform 500ms ease;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.85) 70%);
+.banner {
+  width: 50%;
+  height: auto;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+  }
+
+  @mixin hover {
+    & .image {
+      transform: scale(1.03);
+    }
+  }
 }
 
 .content {
-  height: fit-content;
-  position: relative;
+  width: 50%;
+  height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
-  z-index: 1;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 10px;
+
+  @media (max-width: $mantine-breakpoint-sm) {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
 }
 
 .title {
-  color: var(--mantine-color-white);
-  margin-bottom: rem(5px);
+  color: light-dark(var(--mantine-color-black), var(--mantine-color-white));
+  line-height: 1.5;
+  text-decoration: none;
+  
+  @media (max-width: $mantine-breakpoint-xs) {
+      font-size: rem(24px);
+  }
+}
+
+.description {
+  font-size: var(--mantine-font-size-lg);
+  line-height: 170%;
+  max-width: 540px;
+
+  @media (max-width: $mantine-breakpoint-md) {
+    font-size: var(--mantine-font-size-md);
+  }
 }
 
 .link {
-  color: var(--mantine-color-dark-2);
+  color: var(--text-color);
   text-decoration: none;
-  transition: color 500ms ease;
+  transition: color 200ms ease;
 
   @mixin hover {
     color: var(--mantine-color-dark-1);
