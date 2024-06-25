@@ -5,7 +5,7 @@ import { Link } from 'next-view-transitions'
 import Image from 'next/image'
 import furniro from './furniro.png';
 import agency from './agency.png';
-import crisis_corridor from './crisis_corridor.png';
+import solopreneurpaths from './solopreneurpaths.png';
 import { IconCircleCheck, IconWorldWww } from '@tabler/icons-react';
 import { AnimationWrapper } from '../AnimationWrapper/AnimationWrapper';
 
@@ -76,7 +76,7 @@ export function WhatDoIDo() {
           <AnimationWrapper>
             <Flex direction={{ base: 'column', sm: 'row' }} align="center" justify="center" gap={{ base: 0, sm: 30 }}>
               <div className={classes.banner}>
-                <a href='https://github.com/jeli-t/zegluga-game-jam-2023' target="_blank"><Image src={crisis_corridor} alt="Crisis Corridor Game" title="Crisis Corridor Game" className={classes.image} /></a>
+                <a href='https://solopreneurpaths.com' target="_blank"><Image src={solopreneurpaths} alt="solopreneurpaths.com" title="solopreneurpaths.com" className={classes.image} /></a>
               </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
@@ -95,7 +95,7 @@ export function WhatDoIDo() {
                   </ThemeIcon>}
                 >
                   <ListItem>
-                    <a href="#" target="_blank" className={classes.link}>www.SolopreneuerDream.com</a>
+                    <a href="https://solopreneurpaths.com" target="_blank" className={classes.link}>www.SolopreneurPaths.com</a>
                   </ListItem>
                 </List>
               </Container>
