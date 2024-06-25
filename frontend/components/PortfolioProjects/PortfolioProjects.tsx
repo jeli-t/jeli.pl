@@ -14,6 +14,13 @@ interface ProjectProps {
 
 const mockdata = [
   {
+    image: "/img/solopreneurpaths.png",
+    title: 'solopreneurpaths_title',
+    description: 'solopreneurpaths_description',
+    page_link: 'https://solopreneurpaths.com/',
+    additional_link: ''
+  },
+  {
     image: "/img/pokojezielonanoc.png",
     title: 'pokojezielonanoc_title',
     description: 'pokojezielonanoc_description',
