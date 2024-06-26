@@ -65,14 +65,6 @@
   }
 }
 
-.highlight {
-  position: relative;
-  color: var(--mantine-color-white);
-  background-color: var(--mantine-color-SkyBlue-4);
-  border-radius: var(--mantine-radius-sm);
-  padding: rem(4px) rem(12px);
-}
-
 .description {
   font-size: var(--mantine-font-size-lg);
   line-height: 170%;

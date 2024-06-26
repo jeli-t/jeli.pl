@@ -24,9 +24,7 @@ export function WhatDoIDo() {
               </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
-                  {t('title1_1')}
-                  <br/>
-                  <span className={classes.highlight}>{t('title1_2')}</span>
+                  {t('title1_1')}{' '}{t('title1_2')}
                 </Title>
                 <Text className={classes.description}>
                   {t('description1_1')}
@@ -53,9 +51,7 @@ export function WhatDoIDo() {
               </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
-                  {t('title2_1')}
-                  <br/>
-                  <span className={classes.highlight}>{t('title2_2')}</span>
+                  {t('title2_1')}{' '}{t('title2_2')}
                 </Title>
                 <Text className={classes.description}>
                   {t('description2_1')}
@@ -80,9 +76,7 @@ export function WhatDoIDo() {
               </div>
               <Container className={classes.content}>
                 <Title order={2} className={classes.title}>
-                  {t('title3_1')}
-                  <br/>
-                  <span className={classes.highlight}>{t('title3_2')}</span>
+                  {t('title3_1')}{' '}{t('title3_2')}
                 </Title>
                 <Text className={classes.description} maw={450}>
                   {t('description3_1')}
