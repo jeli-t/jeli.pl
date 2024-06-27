@@ -25,9 +25,9 @@ export function HeroImage(){
   return (
     <>
         {isClient ?
-            <Image src={currentImage.src} />
+            <Image src={currentImage.src} alt="Full stack developer" />
             :
-            <Image src={image.src} />
+            <Image src={image.src} alt="Full stack developer" />
         }
     </>
 );
