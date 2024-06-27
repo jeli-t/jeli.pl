@@ -3,7 +3,6 @@ import { Container, Title, Button, Text } from '@mantine/core';
 import { HeroImage } from './HeroImage';
 import { useTranslations } from 'next-intl';
 import { Link } from 'next-view-transitions'
-import { AnimationWrapper } from '../AnimationWrapper/AnimationWrapper'
 
 
 export function HeroSection() {

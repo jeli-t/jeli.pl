@@ -7,7 +7,6 @@ import furniro from './furniro.png';
 import agency from './agency.png';
 import solopreneurpaths from './solopreneurpaths.png';
 import { IconCircleCheck, IconWorldWww } from '@tabler/icons-react';
-import { AnimationWrapper } from '../AnimationWrapper/AnimationWrapper';
 
 
 export function WhatDoIDo() {
