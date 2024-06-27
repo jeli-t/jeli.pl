@@ -156,5 +156,9 @@
         "title": "I eat your cookies",
         "description": "This website uses essential cookies. By continuing to use the site, you consent to their use.",
         "privacy": "Privacy Policy"
+    },
+    "BlogCTA": {
+        "title": "Check out my blog",
+        "description": "Here, I document my journey as a young entrepreneur, sharing every success, challenge, and lesson learned along the way"
     }
 }

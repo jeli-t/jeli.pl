@@ -3,6 +3,7 @@ import { Container } from '@mantine/core';
 import { AboutMeSection } from '@/components/AboutMeSection/AboutMeSection';
 import { MyCompetence } from '@/components/MyCompetence/MyCompetence';
 import { CallToAction } from '@/components/CallToAction/CallToAction';
+import { BlogCTA } from '@/components/BlogCTA/BlogCTA';
 import {getTranslations} from 'next-intl/server';
 
 
@@ -28,6 +29,7 @@ export default function About() {
     <Container fluid p={0}>
       <AboutMeSection></AboutMeSection>
       <MyCompetence></MyCompetence>
+      <BlogCTA></BlogCTA>
       <CallToAction></CallToAction>
     </Container>
   )

@@ -156,5 +156,9 @@
         "title": "Jem twoje ciasteczka",
         "description": "Ta strona używa niezbędnych plików cookie. Dalsze korzystanie z witryny oznacza zgodę na ich użycie.",
         "privacy": "Polityka Prywatności"
+    },
+    "BlogCTA": {
+        "title": "Sprawdź Mojego Bloga",
+        "description": "Tutaj dokumentuję moją podróż jako młody przedsiębiorca, dzieląc się każdym sukcesem, wyzwaniami i lekcjami zdobytymi po drodze"
     }
 }
