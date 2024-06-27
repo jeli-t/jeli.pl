@@ -11,33 +11,31 @@ export function HeroSection() {
 
   return (
     <Container fluid className={classes.component}>
-      <AnimationWrapper>
-        <Container size={"xl"} className={classes.wrapper}>
-          <Container className={classes.content}>
-            <Title order={1}>
-              <span className={classes.name}>
-                Tomasz Jelito
-              </span>
-              <br />
-              <span className={classes.title}>
-                Full Stack Web Developer
-              </span>
-            </Title>
-            <Link href={'/contact'}>
-              <Button
-                size="lg"
-                radius="md"
-                mt="lg"
-              >
-                {t("contact")}
-              </Button>
-            </Link>
-          </Container>
-          <div className={classes.image}>
-            <HeroImage />
-          </div>
+      <Container size={"xl"} className={classes.wrapper}>
+        <Container className={classes.content}>
+          <Title order={1}>
+            <span className={classes.name}>
+              Tomasz Jelito
+            </span>
+            <br />
+            <span className={classes.title}>
+              Full Stack Web Developer
+            </span>
+          </Title>
+          <Link href={'/contact'}>
+            <Button
+              size="lg"
+              radius="md"
+              mt="lg"
+            >
+              {t("contact")}
+            </Button>
+          </Link>
         </Container>
-      </AnimationWrapper>
+        <div className={classes.image}>
+          <HeroImage />
+        </div>
+      </Container>
     </Container>
   );
 }
