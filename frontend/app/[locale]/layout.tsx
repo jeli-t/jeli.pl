@@ -9,6 +9,7 @@ import { Footer } from '@/components/Footer/Footer';
 import { CookieConsentWrapper } from '@/components/CookieConsent/CookieConsentWrapper';
 import Script from 'next/script'
 import { ViewTransitions } from 'next-view-transitions'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 
 export const metadata = {
@@ -89,6 +90,7 @@ export default function RootLayout(props: LayoutProps) {
             </div>
             <Footer></Footer>
           </MantineProvider>
+          <SpeedInsights />
         </body>
       </html>
     </ViewTransitions>
